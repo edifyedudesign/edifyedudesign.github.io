@@ -1,0 +1,73 @@
+.section hr{
+	border-color: #333;
+}
+
+.topnav .navbar-nav > .active > a, .topnav .navbar-nav > .active > a:hover, .topnav .navbar-nav > .active > a:focus{
+	color: #333;
+}
+
+.promo:hover .promo-icon {
+	background-color: #333;
+}
+
+.service:hover > .fa-stack > .fa-circle {
+	color: #333;
+}
+
+#filters li:hover, #filters li.active {
+	background-color: #333;
+}
+
+#portfolio-grid li:hover .project-overlay {
+	background-color: rgba(51, 51, 51, 0.9);
+}
+
+#project-controls li a:hover {
+	color: #333;
+	border-color: #333;
+}
+
+.plan.selected {
+	background-color: #333;
+}
+
+.plan.selected .circle-price{
+	color: #333;
+}
+
+.plan.selected ul li {
+	border-color: #0d0d0d;
+}
+
+.plan.selected .btn {
+	color: #333;
+}
+
+.circle-price{
+	background-color: #333;
+}
+
+#clients{
+	background-color: #333;
+}
+
+.flex-control-paging li a:hover, .flex-control-paging li a.flex-active{
+	background-color: #333;
+}
+
+.btn-custom {
+	color: #fff;
+	background-color: #333;
+	border-color: #333;
+}
+
+.btn-custom:hover, .btn-custom:focus, .btn-custom:active, .btn-custom.active, .open .dropdown-toggle.btn-custom {
+	color: #fff;
+	background-color: #262626;
+	border-color: #262626;
+}
+
+::selection {
+	background-color: #333;
+	color: #fff;
+}

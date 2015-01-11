@@ -1,0 +1,326 @@
+/* #Color Skins
+================================================== */
+
+/* == Color Skin 1 #(Blue)#
+=================================== */
+
+/* == Backgrounds
+----------------- */
+.colorskin-1 .jcarousel-next:hover, .colorskin-1 .jcarousel-next:active,
+.colorskin-1 .jcarousel-prev:hover, .colorskin-1 .jcarousel-prev:active , .colorskin-1 nav.primary ul li a:active, .colorskin-1 nav.primary ul li a.selected, .colorskin-1 #headline2, .colorskin-1 .callout a.callurl, .colorskin-1 .servobx, .colorskin-1 #menu-icon:hover, .colorskin-1 #menu-icon.active, .colorskin-1 #scroll-top a:hover, .colorskin-1 .bloxcirc.portx, .colorskin-1 ul#main-ibox li.active9, .colorskin-1 a.readmore, .colorskin-1 .mexibox:hover i, .colorskin-1 .icon-box4:hover i, .colorskin-1 .dropcap3 { background-color:#0093d0; }
+/* == TextColors
+---------------- */
+.colorskin-1 .callout a.callurl a.callurl, .colorskin-1 .blog-date-sp h3, .colorskin-1 .acc-trigger a:hover, .colorskin-1 .acc-trigger.active a, .colorskin-1 .acc-trigger.active a:hover, .colorskin-1 #nav a:hover,  .colorskin-1 .nav-wrap2 #nav a:hover, .colorskin-1 #nav li:hover > a, .colorskin-1 #nav li.current a, .colorskin-1 #nav li.current ul li a:hover, .colorskin-1 .ls-layer h3, .colorskin-1 .ls-layer h4, .colorskin-1 h6.blog-cat, .colorskin-1 .icon-colorx i, .colorskin-1 i.icon-colorx, .colorskin-1 .icon-box3:hover i, .colorskin-1 a.magicmore { color:#0093d0; } 
+/* == BorderColors
+------------------ */
+.colorskin-1 #nav li:hover > a, .colorskin-1 #nav li.current a, .colorskin-1 #nav ul, .colorskin-1 .port-page-title, .colorskin-1 .port-page-title, .colorskin-1 .portfolio-item img, .colorskin-1 .process-icon { border-color:#0093d0; }
+/* == Buttons
+------------------ */
+.colorskin-1 .button,
+.colorskin-1 button, .colorskin-1 a.price-send,
+.colorskin-1 input[type="submit"],
+.colorskin-1 input[type="reset"],
+.colorskin-1 input[type="button"] {
+	  background: #0093d0; /* Old browsers */	   
+		 }
+		 
+.colorskin-1 .button:hover,
+.colorskin-1 button:hover, .colorskin-1 a.price-send:hover,
+.colorskin-1 input[type="submit"]:hover,
+.colorskin-1 input[type="reset"]:hover,
+.colorskin-1 input[type="button"]:hover {
+	 background: #32a6d6;  
+		 }
+
+
+/* == Color Skin 2 #(Cherry)#
+=================================== */
+
+/* == Backgrounds
+----------------- */
+.colorskin-2 .jcarousel-next:hover, .colorskin-2 .jcarousel-next:active,
+.colorskin-2 .jcarousel-prev:hover, .colorskin-2 .jcarousel-prev:active , .colorskin-2 nav.primary ul li a:active, .colorskin-2 nav.primary ul li a.selected, .colorskin-2 #headline2, .colorskin-2 .callout a.callurl, .colorskin-2 .servobx, .colorskin-2 #menu-icon:hover, .colorskin-2 #menu-icon.active, .colorskin-2 #scroll-top a:hover, .colorskin-2 .bloxcirc.portx, .colorskin-2 ul#main-ibox li.active9, .colorskin-2 a.readmore, .colorskin-2 .mexibox:hover i, .colorskin-2 .icon-box4:hover i, .colorskin-2 .dropcap3 { background-color:#93516a; }
+/* == TextColors
+---------------- */
+.colorskin-2 .callout a.callurl a.callurl, .colorskin-2 .blog-date-sp h3, .colorskin-2 a.magicmore-x, .colorskin-2 .acc-trigger a:hover, .colorskin-2 .acc-trigger.active a, .colorskin-2 .acc-trigger.active a:hover, .colorskin-2 #nav a:hover,  .colorskin-2 .nav-wrap2 #nav a:hover, .colorskin-2 #nav li:hover > a, .colorskin-2 #nav li.current a, .colorskin-2 #nav li.current ul li a:hover, .colorskin-2 .ls-layer h3, .colorskin-2 .ls-layer h4, .colorskin-2 h6.blog-cat, .colorskin-2 .icon-colorx i, .colorskin-2 i.icon-colorx, .colorskin-2 .icon-box3:hover i, .colorskin-2 a.magicmore { color:#93516a; } 
+/* == BorderColors
+------------------ */
+.colorskin-2 #nav li:hover > a, .colorskin-2 #nav li.current a, .colorskin-2 #nav ul, .colorskin-2 .port-page-title, .colorskin-2 .port-page-title, .colorskin-2 .portfolio-item img, .colorskin-2 .process-icon { border-color:#93516a; }
+/* == Buttons
+------------------ */
+.colorskin-2 .button,
+.colorskin-2 button, .colorskin-2 a.price-send,
+.colorskin-2 input[type="submit"],
+.colorskin-2 input[type="reset"],
+.colorskin-2 input[type="button"] {
+	  background: #93516a; /* Old browsers */	  
+		 }
+		 
+.colorskin-2 .button:hover,
+.colorskin-2 button:hover, .colorskin-2 a.price-send:hover,
+.colorskin-2 input[type="submit"]:hover,
+.colorskin-2 input[type="reset"]:hover,
+.colorskin-2 input[type="button"]:hover {
+	 background: #a45d78; 
+		 }
+
+
+/* == Color Skin 3 #(Teal)#
+=================================== */
+
+/* == Backgrounds
+----------------- */
+.colorskin-3 .jcarousel-next:hover, .colorskin-3 .jcarousel-next:active,
+.colorskin-3 .jcarousel-prev:hover, .colorskin-3 .jcarousel-prev:active , .colorskin-3 nav.primary ul li a:active, .colorskin-3 nav.primary ul li a.selected, .colorskin-3 #headline2, .colorskin-3 .callout a.callurl, .colorskin-3 .servobx, .colorskin-3 #menu-icon:hover, .colorskin-3 #menu-icon.active, .colorskin-3 #scroll-top a:hover, .colorskin-3 .bloxcirc.portx, .colorskin-3 ul#main-ibox li.active9, .colorskin-3 a.readmore, .colorskin-3 .mexibox:hover i, .colorskin-3 .icon-box4:hover i, .colorskin-3 .dropcap3 { background-color:#1fa79e; }
+/* == TextColors
+---------------- */
+.colorskin-3 .callout a.callurl a.callurl, .colorskin-3 .blog-date-sp h3, .colorskin-3 a.magicmore-x, .colorskin-3 .acc-trigger a:hover, .colorskin-3 .acc-trigger.active a, .colorskin-3 .acc-trigger.active a:hover, .colorskin-3 #nav a:hover,  .colorskin-3 .nav-wrap2 #nav a:hover, .colorskin-3 #nav li:hover > a, .colorskin-3 #nav li.current a, .colorskin-3 #nav li.current ul li a:hover, .colorskin-3 .ls-layer h3, .colorskin-3 .ls-layer h4, .colorskin-3 h6.blog-cat, .colorskin-3 .icon-colorx i, .colorskin-3 i.icon-colorx, .colorskin-3 .icon-box3:hover i, .colorskin-3 a.magicmore { color:#1fa79e; } 
+/* == BorderColors
+------------------ */
+.colorskin-3 #nav li:hover > a, .colorskin-3 #nav li.current a, .colorskin-3 #nav ul, .colorskin-3 .port-page-title, .colorskin-3 .port-page-title, .colorskin-3 .portfolio-item img, .colorskin-3 .process-icon { border-color:#1fa79e; }
+/* == Buttons
+------------------ */
+.colorskin-3 .button,
+.colorskin-3 button, .colorskin-3 a.price-send,
+.colorskin-3 input[type="submit"],
+.colorskin-3 input[type="reset"],
+.colorskin-3 input[type="button"] {
+	  background: #1fa79e; /* Old browsers */	  
+		 }
+		 
+.colorskin-3 .button:hover,
+.colorskin-3 button:hover, .colorskin-3 a.price-send:hover,
+.colorskin-3 input[type="submit"]:hover,
+.colorskin-3 input[type="reset"]:hover,
+.colorskin-3 input[type="button"]:hover {
+	  background: #34b7ae;
+		 }
+
+
+/* == Color Skin 4 #(Red)#
+=================================== */
+
+/* == Backgrounds
+----------------- */
+.colorskin-4 .jcarousel-next:hover, .colorskin-4 .jcarousel-next:active,
+.colorskin-4 .jcarousel-prev:hover, .colorskin-4 .jcarousel-prev:active , .colorskin-4 nav.primary ul li a:active, .colorskin-4 nav.primary ul li a.selected, .colorskin-4 #headline2, .colorskin-4 .callout a.callurl, .colorskin-4 .servobx, .colorskin-4 #menu-icon:hover, .colorskin-4 #menu-icon.active, .colorskin-4 #scroll-top a:hover, .colorskin-4 .bloxcirc.portx, .colorskin-4 ul#main-ibox li.active9, .colorskin-4 a.readmore, .colorskin-4 .mexibox:hover i, .colorskin-4 .icon-box4:hover i, .colorskin-4 .dropcap3 { background-color:#e53f51; }
+/* == TextColors
+---------------- */
+.colorskin-4 .callout a.callurl a.callurl, .colorskin-4 .blog-date-sp h3, .colorskin-4 a.magicmore-x, .colorskin-4 .acc-trigger a:hover, .colorskin-4 .acc-trigger.active a, .colorskin-4 .acc-trigger.active a:hover, .colorskin-4 #nav a:hover,  .colorskin-4 .nav-wrap2 #nav a:hover, .colorskin-4 #nav li:hover > a, .colorskin-4 #nav li.current a, .colorskin-4 #nav li.current ul li a:hover, .colorskin-4 .ls-layer h3, .colorskin-4 .ls-layer h4, .colorskin-4 h6.blog-cat, .colorskin-4 .icon-colorx i, .colorskin-4 i.icon-colorx, .colorskin-4 .icon-box3:hover i, .colorskin-4 a.magicmore { color:#e53f51; } 
+/* == BorderColors
+------------------ */
+.colorskin-4 #nav li:hover > a, .colorskin-4 #nav li.current a, .colorskin-4 #nav ul, .colorskin-4 .port-page-title, .colorskin-4 .port-page-title, .colorskin-4 .portfolio-item img, .colorskin-4 .process-icon { border-color:#e53f51; }
+/* == Buttons
+------------------ */
+.colorskin-4 .button,
+.colorskin-4 button, .colorskin-4 a.price-send,
+.colorskin-4 input[type="submit"],
+.colorskin-4 input[type="reset"],
+.colorskin-4 input[type="button"] {
+	  background: #e53f51; /* Old browsers */	    
+		 }
+		 
+.colorskin-4 .button:hover,
+.colorskin-4 button:hover, .colorskin-4 a.price-send:hover,
+.colorskin-4 input[type="submit"]:hover,
+.colorskin-4 input[type="reset"]:hover,
+.colorskin-4 input[type="button"]:hover {
+	  background: #eb5162;
+		 }
+
+/* == Color Skin 5 #(Pink)#
+=================================== */
+
+/* == Backgrounds
+----------------- */
+.colorskin-5 .jcarousel-next:hover, .colorskin-5 .jcarousel-next:active,
+.colorskin-5 .jcarousel-prev:hover, .colorskin-5 .jcarousel-prev:active , .colorskin-5 nav.primary ul li a:active, .colorskin-5 nav.primary ul li a.selected, .colorskin-5 #headline2, .colorskin-5 .callout a.callurl, .colorskin-5 .servobx, .colorskin-5 #menu-icon:hover, .colorskin-5 #menu-icon.active, .colorskin-5 #scroll-top a:hover, .colorskin-5 .bloxcirc.portx, .colorskin-5 ul#main-ibox li.active9, .colorskin-5 a.readmore, .colorskin-5 .mexibox:hover i, .colorskin-5 .icon-box4:hover i, .colorskin-5 .dropcap3 { background-color:#e64883; }
+/* == TextColors
+---------------- */
+.colorskin-5 .callout a.callurl a.callurl, .colorskin-5 .blog-date-sp h3, .colorskin-5 a.magicmore-x, .colorskin-5 .acc-trigger a:hover, .colorskin-5 .acc-trigger.active a, .colorskin-5 .acc-trigger.active a:hover, .colorskin-5 #nav a:hover,  .colorskin-5 .nav-wrap2 #nav a:hover, .colorskin-5 #nav li:hover > a, .colorskin-5 #nav li.current a, .colorskin-5 #nav li.current ul li a:hover, .colorskin-5 .ls-layer h3, .colorskin-5 .ls-layer h4, .colorskin-5 h6.blog-cat, .colorskin-5 .icon-colorx i, .colorskin-5 i.icon-colorx, .colorskin-5 .icon-box3:hover i, .colorskin-5 a.magicmore { color:#e64883; } 
+/* == BorderColors
+------------------ */
+.colorskin-5 #nav li:hover > a, .colorskin-5 #nav li.current a, .colorskin-5 #nav ul, .colorskin-5 .port-page-title, .colorskin-5 .port-page-title, .colorskin-5 .portfolio-item img, .colorskin-5 .process-icon { border-color:#e64883; }
+/* == Buttons
+------------------ */
+.colorskin-5 .button,
+.colorskin-5 button, .colorskin-5 a.price-send,
+.colorskin-5 input[type="submit"],
+.colorskin-5 input[type="reset"],
+.colorskin-5 input[type="button"] {
+	  background: #e64883; /* Old browsers */	    
+		 }
+		 
+.colorskin-5 .button:hover,
+.colorskin-5 button:hover, .colorskin-5 a.price-send:hover,
+.colorskin-5 input[type="submit"]:hover,
+.colorskin-5 input[type="reset"]:hover,
+.colorskin-5 input[type="button"]:hover {
+	  background: #ea598f;
+		 }
+
+/* == Color Skin 6 #(Green)#
+=================================== */
+
+/* == Backgrounds
+----------------- */
+.colorskin-6 .jcarousel-next:hover, .colorskin-6 .jcarousel-next:active,
+.colorskin-6 .jcarousel-prev:hover, .colorskin-6 .jcarousel-prev:active , .colorskin-6 nav.primary ul li a:active, .colorskin-6 nav.primary ul li a.selected, .colorskin-6 #headline2, .colorskin-6 .callout a.callurl, .colorskin-6 .servobx, .colorskin-6 #menu-icon:hover, .colorskin-6 #menu-icon.active, .colorskin-6 #scroll-top a:hover, .colorskin-6 .bloxcirc.portx, .colorskin-6 ul#main-ibox li.active9, .colorskin-6 a.readmore, .colorskin-6 .mexibox:hover i, .colorskin-6 .icon-box4:hover i, .colorskin-6 .dropcap3 { background-color:#8fbe32; }
+/* == TextColors
+---------------- */
+.colorskin-6 .callout a.callurl a.callurl, .colorskin-6 .blog-date-sp h3, .colorskin-6 a.magicmore-x, .colorskin-6 .acc-trigger a:hover, .colorskin-6 .acc-trigger.active a, .colorskin-6 .acc-trigger.active a:hover, .colorskin-6 #nav a:hover,  .colorskin-6 .nav-wrap2 #nav a:hover, .colorskin-6 #nav li:hover > a, .colorskin-6 #nav li.current a, .colorskin-6 #nav li.current ul li a:hover, .colorskin-6 .ls-layer h3, .colorskin-6 .ls-layer h4, .colorskin-6 h6.blog-cat, .colorskin-6 .icon-colorx i, .colorskin-6 i.icon-colorx, .colorskin-6 .icon-box3:hover i, .colorskin-6 a.magicmore { color:#8fbe32; } 
+/* == BorderColors
+------------------ */
+.colorskin-6 #nav li:hover > a, .colorskin-6 #nav li.current a, .colorskin-6 #nav ul, .colorskin-6 .port-page-title, .colorskin-6 .port-page-title, .colorskin-6 .portfolio-item img, .colorskin-6 .process-icon { border-color:#8fbe32; }
+/* == Buttons
+------------------ */
+.colorskin-6 .button,
+.colorskin-6 button, .colorskin-6 a.price-send,
+.colorskin-6 input[type="submit"],
+.colorskin-6 input[type="reset"],
+.colorskin-6 input[type="button"] {
+	  background: #8fbe32; /* Old browsers */	  
+		 }
+		 
+.colorskin-6 .button:hover,
+.colorskin-6 button:hover, .colorskin-6 a.price-send:hover,
+.colorskin-6 input[type="submit"]:hover,
+.colorskin-6 input[type="reset"]:hover,
+.colorskin-6 input[type="button"]:hover {
+	  background: #9ecd40;
+		 }
+
+
+/* == Color Skin 7 #(Orchid)#
+=================================== */
+
+/* == Backgrounds
+----------------- */
+.colorskin-7 .jcarousel-next:hover, .colorskin-7 .jcarousel-next:active,
+.colorskin-7 .jcarousel-prev:hover, .colorskin-7 .jcarousel-prev:active , .colorskin-7 nav.primary ul li a:active, .colorskin-7 nav.primary ul li a.selected, .colorskin-7 #headline2, .colorskin-7 .callout a.callurl, .colorskin-7 .servobx, .colorskin-7 #menu-icon:hover, .colorskin-7 #menu-icon.active, .colorskin-7 #scroll-top a:hover, .colorskin-7 .bloxcirc.portx, .colorskin-7 ul#main-ibox li.active9, .colorskin-7 a.readmore, .colorskin-7 .mexibox:hover i, .colorskin-7 .icon-box4:hover i, .colorskin-7 .dropcap3 { background-color:#9661ab; }
+/* == TextColors
+---------------- */
+.colorskin-7 .callout a.callurl a.callurl, .colorskin-7 .blog-date-sp h3, .colorskin-7 a.magicmore-x, .colorskin-7 .acc-trigger a:hover, .colorskin-7 .acc-trigger.active a, .colorskin-7 .acc-trigger.active a:hover, .colorskin-7 #nav a:hover,  .colorskin-7 .nav-wrap2 #nav a:hover, .colorskin-7 #nav li:hover > a, .colorskin-7 #nav li.current a, .colorskin-7 #nav li.current ul li a:hover, .colorskin-7 .ls-layer h3, .colorskin-7 .ls-layer h4, .colorskin-7 h6.blog-cat, .colorskin-7 .icon-colorx i, .colorskin-7 i.icon-colorx, .colorskin-7 .icon-box3:hover i, .colorskin-7 a.magicmore { color:#9661ab; } 
+/* == BorderColors
+------------------ */
+.colorskin-7 #nav li:hover > a, .colorskin-7 #nav li.current a, .colorskin-7 #nav ul, .colorskin-7 .port-page-title, .colorskin-7 .port-page-title, .colorskin-7 .portfolio-item img, .colorskin-7 .process-icon { border-color:#9661ab; }
+/* == Buttons
+------------------ */
+.colorskin-7 .button,
+.colorskin-7 button, .colorskin-7 a.price-send,
+.colorskin-7 input[type="submit"],
+.colorskin-7 input[type="reset"],
+.colorskin-7 input[type="button"] {
+	  background: #9661ab; /* Old browsers */	      
+		 }
+		 
+.colorskin-7 .button:hover,
+.colorskin-7 button:hover, .colorskin-7 a.price-send:hover,
+.colorskin-7 input[type="submit"]:hover,
+.colorskin-7 input[type="reset"]:hover,
+.colorskin-7 input[type="button"]:hover {
+	  background: #a06ab5;
+		 }
+ 
+ 
+/* == Color Skin 8 #(Jade)#
+=================================== */
+
+/* == Backgrounds
+----------------- */
+.colorskin-8 .jcarousel-next:hover, .colorskin-8 .jcarousel-next:active,
+.colorskin-8 .jcarousel-prev:hover, .colorskin-8 .jcarousel-prev:active , .colorskin-8 nav.primary ul li a:active, .colorskin-8 nav.primary ul li a.selected, .colorskin-8 #headline2, .colorskin-8 .callout a.callurl, .colorskin-8 .servobx, .colorskin-8 #menu-icon:hover, .colorskin-8 #menu-icon.active, .colorskin-8 #scroll-top a:hover, .colorskin-8 .bloxcirc.portx, .colorskin-8 ul#main-ibox li.active9, .colorskin-8 a.readmore, .colorskin-8 .mexibox:hover i, .colorskin-8 .icon-box4:hover i, .colorskin-8 .dropcap3 { background-color:#0aad80; }
+/* == TextColors
+---------------- */
+.colorskin-8 .callout a.callurl a.callurl, .colorskin-8 .blog-date-sp h3, .colorskin-8 a.magicmore-x, .colorskin-8 .acc-trigger a:hover, .colorskin-8 .acc-trigger.active a, .colorskin-8 .acc-trigger.active a:hover, .colorskin-8 #nav a:hover,  .colorskin-8 .nav-wrap2 #nav a:hover, .colorskin-8 #nav li:hover > a, .colorskin-8 #nav li.current a, .colorskin-8 #nav li.current ul li a:hover, .colorskin-8 .ls-layer h3, .colorskin-8 .ls-layer h4, .colorskin-8 h6.blog-cat, .colorskin-8 .icon-colorx i, .colorskin-8 i.icon-colorx, .colorskin-8 .icon-box3:hover i, .colorskin-8 a.magicmore { color:#0aad80; } 
+/* == BorderColors
+------------------ */
+.colorskin-8 #nav li:hover > a, .colorskin-8 #nav li.current a, .colorskin-8 #nav ul, .colorskin-8 .port-page-title, .colorskin-8 .port-page-title, .colorskin-8 .portfolio-item img, .colorskin-8 .process-icon { border-color:#0aad80; }
+/* == Buttons
+------------------ */
+.colorskin-8 .button,
+.colorskin-8 button, .colorskin-8 a.price-send,
+.colorskin-8 input[type="submit"],
+.colorskin-8 input[type="reset"],
+.colorskin-8 input[type="button"] {
+	  background: #0aad80; /* Old browsers */	  
+		 }
+		 
+.colorskin-8 .button:hover,
+.colorskin-8 button:hover, .colorskin-8 a.price-send:hover,
+.colorskin-8 input[type="submit"]:hover,
+.colorskin-8 input[type="reset"]:hover,
+.colorskin-8 input[type="button"]:hover {
+	  background: #19bc8f;
+		 }
+
+
+/* == Color Skin 9 #(SkyBlue)#
+=================================== */
+
+/* == Backgrounds
+----------------- */
+.colorskin-9 .jcarousel-next:hover, .colorskin-9 .jcarousel-next:active,
+.colorskin-9 .jcarousel-prev:hover, .colorskin-9 .jcarousel-prev:active , .colorskin-9 nav.primary ul li a:active, .colorskin-9 nav.primary ul li a.selected, .colorskin-9 #headline2, .colorskin-9 .callout a.callurl, .colorskin-9 .servobx, .colorskin-9 #menu-icon:hover, .colorskin-9 #menu-icon.active, .colorskin-9 #scroll-top a:hover, .colorskin-9 .bloxcirc.portx, .colorskin-9 ul#main-ibox li.active9, .colorskin-9 a.readmore, .colorskin-9 .mexibox:hover i, .colorskin-9 .icon-box4:hover i, .colorskin-9 .dropcap3 { background-color:#03acdc; }
+/* == TextColors
+---------------- */
+.colorskin-9 .callout a.callurl a.callurl, .colorskin-9 .blog-date-sp h3, .colorskin-9 a.magicmore-x, .colorskin-9 .acc-trigger a:hover, .colorskin-9 .acc-trigger.active a, .colorskin-9 .acc-trigger.active a:hover, .colorskin-9 #nav a:hover,  .colorskin-9 .nav-wrap2 #nav a:hover, .colorskin-9 #nav li:hover > a, .colorskin-9 #nav li.current a, .colorskin-9 #nav li.current ul li a:hover, .colorskin-9 .ls-layer h3, .colorskin-9 .ls-layer h4, .colorskin-9 h6.blog-cat, .colorskin-9 .icon-colorx i, .colorskin-9 i.icon-colorx, .colorskin-9 .icon-box3:hover i, .colorskin-9 a.magicmore { color:#03acdc; } 
+/* == BorderColors
+------------------ */
+.colorskin-9 #nav li:hover > a, .colorskin-9 #nav li.current a, .colorskin-9 #nav ul, .colorskin-9 .port-page-title, .colorskin-9 .port-page-title, .colorskin-9 .portfolio-item img, .colorskin-9 .process-icon { border-color:#03acdc; }
+/* == Buttons
+------------------ */
+.colorskin-9 .button,
+.colorskin-9 button, .colorskin-9 a.price-send,
+.colorskin-9 input[type="submit"],
+.colorskin-9 input[type="reset"],
+.colorskin-9 input[type="button"] {
+	  background: #03acdc; /* Old browsers */	  
+		 }
+		 
+.colorskin-9 .button:hover,
+.colorskin-9 button:hover, .colorskin-9 a.price-send:hover,
+.colorskin-9 input[type="submit"]:hover,
+.colorskin-9 input[type="reset"]:hover,
+.colorskin-9 input[type="button"]:hover {
+	  background: #1db7e3;
+		 }
+
+
+/* == Color Skin 10 #(Orange)#
+=================================== */
+
+/* == Backgrounds
+----------------- */
+.colorskin-10 .jcarousel-next:hover, .colorskin-10 .jcarousel-next:active,
+.colorskin-10 .jcarousel-prev:hover, .colorskin-10 .jcarousel-prev:active , .colorskin-10 nav.primary ul li a:active, .colorskin-10 nav.primary ul li a.selected, .colorskin-10 #headline2, .colorskin-10 .callout a.callurl, .colorskin-10 .servobx, .colorskin-10 #menu-icon:hover, .colorskin-10 #menu-icon.active, .colorskin-10 #scroll-top a:hover, .colorskin-10 .bloxcirc.portx, .colorskin-10 ul#main-ibox li.active9, .colorskin-10 a.readmore, .colorskin-10 .mexibox:hover i, .colorskin-10 .icon-box4:hover i, .colorskin-10 .dropcap3 { background-color:#f98805; }
+/* == TextColors
+---------------- */
+.colorskin-10 .callout a.callurl a.callurl, .colorskin-10 .blog-date-sp h3, .colorskin-10 a.magicmore-x, .colorskin-10 .acc-trigger a:hover, .colorskin-10 .acc-trigger.active a, .colorskin-10 .acc-trigger.active a:hover, .colorskin-10 #nav a:hover,  .colorskin-10 .nav-wrap2 #nav a:hover, .colorskin-10 #nav li:hover > a, .colorskin-10 #nav li.current a, .colorskin-10 #nav li.current ul li a:hover, .colorskin-10 .ls-layer h3, .colorskin-10 .ls-layer h4, .colorskin-10 h6.blog-cat, .colorskin-10 .icon-colorx i, .colorskin-10 i.icon-colorx, .colorskin-10 .icon-box3:hover i, .colorskin-10 a.magicmore { color:#f98805; } 
+/* == BorderColors
+------------------ */
+.colorskin-10 #nav li:hover > a, .colorskin-10 #nav li.current a, .colorskin-10 #nav ul, .colorskin-10 .port-page-title, .colorskin-10 .port-page-title, .colorskin-10 .portfolio-item img, .colorskin-10 .process-icon { border-color:#f98805; }
+/* == Buttons
+------------------ */
+.colorskin-10 .button,
+.colorskin-10 button, .colorskin-10 a.price-send,
+.colorskin-10 input[type="submit"],
+.colorskin-10 input[type="reset"],
+.colorskin-10 input[type="button"] {
+	  background: #f98805; /* Old browsers */	    
+		 }
+		 
+.colorskin-10 .button:hover,
+.colorskin-10 button:hover, .colorskin-10 a.price-send:hover,
+.colorskin-10 input[type="submit"]:hover,
+.colorskin-10 input[type="reset"]:hover,
+.colorskin-10 input[type="button"]:hover {
+	  background: #eb9634;
+		 }
+
+
+/* == Fix Colors#
+=================================== */
+
+.colorskin-1 #nav li.current ul li a, .colorskin-2 #nav li.current ul li a, .colorskin-3 #nav li.current ul li a, .colorskin-4 #nav li.current ul li a, .colorskin-5 #nav li.current ul li a, .colorskin-6 #nav li.current ul li a, .colorskin-7 #nav li.current ul li a, .colorskin-8 #nav li.current ul li a, .colorskin-9 #nav li.current ul li a, .colorskin-10 #nav li.current ul li a { color:#595959; }
+
