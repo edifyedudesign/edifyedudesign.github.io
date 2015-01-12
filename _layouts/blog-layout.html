@@ -1,159 +1,117 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Floyd - One Page Responsive Parallax Theme</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
+---
+layout: default
+---
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<section id="headline">
+  <div class="container">
+    <h3>Edify<small>Education Design</small></h3>
+  </div>
+  <hr class="vertical-space2">
+</section>
 
-    <!-- Fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
-
-    <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="css/animate.css">
-    <link rel="stylesheet" type="text/css" href="css/flexslider.css">
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/style-blog.css">
-    <link rel="stylesheet" type="text/css" href="css/base.css">
-    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
-    <link rel="stylesheet" type="text/css" href="css/color-skins.css">
-    <link rel="stylesheet" type="text/css" href="css/blox.css">
-    <link rel="stylesheet" type="text/css" href="css/slide1.css">
-    <link rel="stylesheet" type="text/css" href="css/icomoon.css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,900|Roboto|Roboto+Slab:300,400' rel='stylesheet' type='text/css'>
-
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon.ico">
-
-    <!-- Color Scheme -->
-    <link rel="stylesheet" type="text/css" href="css/colors/red.css">
-    <!-- <link rel="stylesheet" type="text/css" href="css/colors/blue.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="css/colors/green.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="css/colors/black.css"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="css/colors/yellow.css"> -->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-  </head>
-<body>
-
-  <!-- Preloader -->
-<!--   <div id="mask">
-    <div id="loader">
-    </div>
-  </div> -->
-  <!-- End Preloader -->
-
-  <!-- Home Section -->
-<!--   <section id="home">
+  <section class="section-blog">
     <div class="container">
+      <section class="eleven columns">
 
-    </div>
-  </section> -->
-  <!-- End Home Section -->
+        {% for post in site.categories.education | limit:5 %}
+        <article class="blog-post">
+          <div class="one columns alpha">
+            <div class="blog-date-sec"> <span>{{ post.date | date: '%B' }}</span>
+              <h3>{{ post.date | date: '%d' }}</h3>
+              <span>{{ post.date | date: '%Y' }}</span> </div>
+          </div>
+          <div class="ten columns omega">
+            <div class="img-container">
+              <img class="frame" src="images/team/2.jpg" alt="">
+              <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              <div class="postmetadata img-container-text">
 
-  <!-- Header -->
-  <header class="navbar navbar-default topnav" role="banner">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#home" id="logo">Floyd</a>
-      </div>
-      <div class="collapse navbar-collapse" id="navigation">
-        <ul class="nav navbar-nav navbar-right" id="nav">
-          <li class="active"><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="/blog.html">Blog</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </header>
-  <!-- End Header -->
+              <!-- Look the author details up from the site config. -->
+              {% assign author = site.data.authors[page.author] %}
 
-    {{ content }}
+              <!-- Output author details if some exist. -->
+              <h6 class="blog-author"><strong>by</strong>
+                {% if author %}
+                  <!-- Personal Info. -->
+                  <a href="{{ author.web }}" target="_blank">{{ author.name }}</a>
+                {% endif %}
+              </h6>
 
-</body>
 
-</html>
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <!-- Social Links -->
-      <ul class="social-list">
-        <li>
-          <a href="https://www.facebook.com/" target="_blank">
-            <span class="social-icon">
-              <i class="fa fa-facebook"></i>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/" target="_blank">
-            <span class="social-icon">
-              <i class="fa fa-twitter"></i>
-            </span>
-          </a>
-        </li>
-        <li>
-          <a href="https://plus.google.com/" target="_blank">
-            <span class="social-icon">
-              <i class="fa fa-google-plus"></i>
-            </span>
-          </a>
-        </li>
+
+                <h6 class="blog-cat"><strong>in</strong>
+                {{ post.tags.pop }}
+                {% for tag in post.tags %}
+                  {{ tag }}
+                {% endfor %}</h6>
+              </div>
+            </div>
+
+            <p>{{ post.content | strip_html | truncate: 200}}</p>
+            <a href="{{ post.url }}"><btn style="float: right;" class="btn btn-sm btn-info"><strong>Read More</strong></btn></a>
+
+          </div>
+
+          <br class="clear">
+
+        </article>
+        {% endfor %}
+
+        <!-- {{ content }} -->
+
+  </section>
+  <!-- end-main-content -->
+
+  <aside class="four columns offset-by-one sidebar">
+    <h4 class="subtitle">Categories</h4>
+    <div class="listbox1">
+      <ul>
+        <li><a href="#">Company </a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Other </a></li>
       </ul>
-      <!-- End Social Links -->
-
-      <!-- Copyright -->
-      <p class="center grey">2013 &copy; Floyd. All rights reserved.</p>
-      <!-- End Copyright -->
     </div>
-  </footer>
-  <!-- End Footer -->
+    <!-- end-listbox1 -->
+    <br class="clear">
 
-  <!-- JS Libraries -->
+    <h4 class="subtitle">Text Widget</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor<a href="#"> exercitation</a> ut labore et dolore magna aliqua. Ut enim ad</p>
+    <br class="clear">
+    <h4 class="subtitle">Archives</h4>
+    <div class="listbox1">
+      <ul>
+        <li><a href="#">May 2012 (2)</a></li>
+        <li><a href="#">April 2012 (3)</a></li>
+        <li><a href="#">March 2012 (5)</a></li>
+        <li><a href="#">February 2012 (1) </a></li>
+      </ul>
+    </div>
+    <!-- end-listbox1 -->
+    <br class="clear">
+  </aside>
+  <!-- end-sidebar-->
 
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/flexslider.js"></script>
-  <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
-  <script type="text/javascript" src="js/jquery.nav.js"></script>
-  <script type="text/javascript" src="js/jquery.appear.js"></script>
-  <script type="text/javascript" src="js/jquery.countTo.js"></script>
-  <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-  <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-  <script type="text/javascript" src="js/jquery.validation.min.js"></script>
-  <script type="text/javascript" src="js/respond.js"></script>
-  <script type="text/javascript" src="js/parallax-bg.js"></script>
+  <br class="clear">
 
-  <script type="text/javascript" src="js/mexin-custom.js"></script>
-  <script type="text/javascript" src="js/doubletaptogo.js"></script>
-  <script src="js/bootstrap-alert.js"></script>
-  <script src="js/bootstrap-tab.js"></script>
-  <script src="js/bootstrap-dropdown.js"></script>
-  <script src="js/bootstrap-tooltip.js"></script>
 
-  <!-- Google Maps JS File -->
-  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+  <span id="scroll-top"><a class="scrollup"><i class="icomoon-arrow-up"></i></a></span> </div>
+  <!-- end-wrap -->
+  <!-- End Document -->
 
-  <!-- Main.js File -->
-  <script type="text/javascript" src="js/main.js"></script>
+  <br class="clear">
 
-</body>
-</html>
+  <div class="pagination2 pagination2-centered">
+    <ul>
+      <li class="disabled"><a href="#">&laquo;</a></li>
+      <li class="active"><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">&raquo;</a></li>
+    </ul>
+  </div>
+  <div class="vertical-space2"></div>
+</section>
+
+

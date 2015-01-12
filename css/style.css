@@ -46,6 +46,14 @@ p {
   overflow: hidden;
 }
 
+.section-blog {
+  min-height: 300px;
+  background-color: #fff;
+  padding-bottom: 70px;
+  padding-top: 70px;
+  overflow: hidden;
+}
+
 .section hr {
   width: 90px;
   border-top: 2px solid transparent;
@@ -1020,7 +1028,7 @@ footer .social-list a:hover .social-icon {
 
   #demo-switcher {
     display: none;
-  }  
+  }
 
 }
 
