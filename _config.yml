@@ -8,7 +8,8 @@ url: "http://edifyedu.com" # the base hostname & protocol for your site
 
 
 # Author details
-kristen_gallagher:
+authors:
+  kristen_gallagher:
     name: Kristen Gallagher
     email: kristen@edifyedu.com
     web: https://edifyedu.com/about

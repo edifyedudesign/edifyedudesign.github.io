@@ -1,82 +1,89 @@
 ---
-layout: blog-layout
+layout: default
 ---
 
+<section id="headline">
+  <div class="container">
+    <h3>Edify<small>Education Design</small></h3>
+  </div>
+  <hr class="vertical-space2">
+</section>
 
-          <article class="blog-post">
-            <div class="one columns alpha">
-              <div class="blog-date-sec"> <span>AUG</span>
-                <h3>09</h3>
-                <span>2013</span> </div>
-            </div>
-            <div class="four columns alpha"> <img src="images/blog-post-pic1-1.jpg" alt=""><br>
-            </div>
-            <div class="six columns omega">
-              <h3><a href="blog-single.html">Job Seeking Out of Your Industry</a></h3>
-              <div class="postmetadata">
-                <h6 class="blog-author"><strong>by</strong> John Smith </h6>
-                <h6 class="blog-cat"><strong>in</strong> Business, News, Company </h6>
-              </div>
-              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. interdum sit Phasellus blandit mattis ipsum, ac laoreet lorem lacinia et. Cras et ligula libero. Quisque quis…</p>
-              <a href="blog-single.html"  class="readmore">read more</a> </div>
-            <br class="clear">
-          </article>
+  <section class="section-blog">
+    <div class="container">
+      <section class="eleven columns">
 
-          <article class="blog-post">
-            <div class="one columns alpha">
-              <div class="blog-date-sec"> <span>AUG</span>
-                <h3>08</h3>
-                <span>2013</span> </div>
-            </div>
-            <div class="four columns alpha"> <img src="images/blog-post-pic2-2.jpg" alt=""><br>
-            </div>
-            <div class="six columns omega">
-              <h3><a href="blog-single.html">What Your College Degree Will Be Worth</a></h3>
-              <div class="postmetadata">
-                <h6 class="blog-author"><strong>by</strong> John Smith </h6>
-                <h6 class="blog-cat"><strong>in</strong> Business, News, Company </h6>
+        {% for post in site.categories.education | limit:5 %}
+        <article class="blog-post">
+          <div class="one columns alpha">
+            <div class="blog-date-sec"> <span>{{ post.date | date: '%B' }}</span>
+              <h3>{{ post.date | date: '%d' }}</h3>
+              <span>{{ post.date | date: '%Y' }}</span> </div>
+          </div>
+          <div class="ten columns omega">
+            <div class="img-container">
+              <img class="frame" src="{{ post.image }}" alt="">
+              <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              <div class="postmetadata img-container-text">
+                <span>by </span><h6 class="blog-author"> {{ post.author }}</h6>
+                <span>in </span><h6 class="blog-author"> {{ post.category }}</h6>
               </div>
-              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. interdum sit Phasellus blandit mattis ipsum, ac laoreet lorem lacinia et. Cras et ligula libero. Quisque quis…</p>
-              <a href="blog-single.html"  class="readmore">read more</a> </div>
-            <br class="clear">
-          </article>
+            </div>
 
-          <article class="blog-post">
-            <div class="one columns alpha">
-              <div class="blog-date-sec"> <span>AUG</span>
-                <h3>07</h3>
-                <span>2013</span> </div>
-            </div>
-            <div class="four columns alpha"> <img src="images/blog-post-pic2-2.jpg" alt=""><br>
-            </div>
-            <div class="six columns omega">
-              <h3><a href="blog-single.html">The Street Aesthetic of New York City</a></h3>
-              <div class="postmetadata">
-                <h6 class="blog-author"><strong>by</strong> John Smith </h6>
-                <h6 class="blog-cat"><strong>in</strong> Business, News, Company </h6>
-              </div>
-              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. interdum sit Phasellus blandit mattis ipsum, ac laoreet lorem lacinia et. Cras et ligula libero. Quisque quis…</p>
-              <a href="blog-single.html"  class="readmore">read more</a> </div>
-            <br class="clear">
-          </article>
+            <p>{{ post.content | strip_html | truncate: 200}}</p>
+            <a href="{{ post.url }}"><btn style="float: right;" class="btn btn-sm btn-info"><strong>Read More</strong></btn></a>
 
-          <article class="blog-post">
-            <div class="one columns alpha">
-              <div class="blog-date-sec"> <span>AUG</span>
-                <h3>06</h3>
-                <span>2013</span> </div>
-            </div>
-            <div class="four columns alpha">
-              <div class="four columns alpha"> <img src="images/blog-post-pic2-2.jpg" alt=""><br>
-            </div>
-            <div class="six columns omega">
-              <h3><a href="blog-single.html">How to do Levitation Photography</a></h3>
-              <div class="postmetadata">
-                <h6 class="blog-author"><strong>by</strong> John Smith </h6>
-                <h6 class="blog-cat"><strong>in</strong> Business, News, Company </h6>
-              </div>
-              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. interdum sit Phasellus blandit mattis ipsum, ac laoreet lorem lacinia et. Cras et ligula libero. Quisque quis…</p>
-              <a href="blog-single.html"  class="readmore">read more</a> </div>
-            <br class="clear">
-          </article>
+          </div>
+
+          <br class="clear">
+
+        </article>
+        {% endfor %}
+
+        <!-- {{ content }} -->
+
+  </section>
+  <!-- end-main-content -->
+
+  <aside class="four columns offset-by-one sidebar">
+    <h4 class="subtitle">Categories</h4>
+    <div class="listbox1">
+      <ul>
+        {% for category in site.categories %}
+        <li><a href="{{ category.url }}">{{ category.name }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <!-- end-listbox1 -->
+    <br class="clear">
+
+    <h4 class="subtitle">Text Widget</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor<a href="#"> exercitation</a> ut labore et dolore magna aliqua. Ut enim ad</p>
+    <br class="clear">
+    <h4 class="subtitle">Archives</h4>
+    <div class="listbox1">
+      <ul>
+        <li><a href="#">May 2012 (2)</a></li>
+        <li><a href="#">April 2012 (3)</a></li>
+        <li><a href="#">March 2012 (5)</a></li>
+        <li><a href="#">February 2012 (1) </a></li>
+      </ul>
+    </div>
+    <!-- end-listbox1 -->
+    <br class="clear">
+  </aside>
+  <!-- end-sidebar-->
+
+  <br class="clear">
+
+
+  <span id="scroll-top"><a class="scrollup"><i class="icomoon-arrow-up"></i></a></span> </div>
+  <!-- end-wrap -->
+  <!-- End Document -->
+
+  <br class="clear">
+
+  <div class="vertical-space2"></div>
+</section>
+
 
