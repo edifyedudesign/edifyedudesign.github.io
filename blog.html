@@ -15,7 +15,7 @@ layout: default
 
         {% for post in site.categories.education | limit:5 %}
         <article class="blog-post">
-          <div class="one columns alpha">
+          <div class="one columns alpha frame">
             <div class="blog-date-sec"> <span>{{ post.date | date: '%B' }}</span>
               <h3>{{ post.date | date: '%d' }}</h3>
               <span>{{ post.date | date: '%Y' }}</span> </div>
@@ -24,13 +24,13 @@ layout: default
             <div class="img-container">
               <img class="frame" src="{{ post.image }}" alt="">
               <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-              <div class="postmetadata img-container-text">
+              <div class="postmetadata">
                 <span>by </span><h6 class="blog-author"> {{ post.author }}</h6>
                 <span>in </span><h6 class="blog-author"> {{ post.category }}</h6>
               </div>
             </div>
 
-            <p>{{ post.content | strip_html | truncate: 200}}</p>
+            <p style="margin-left: 60px;">{{ post.content | strip_html | truncate: 200}}</p>
             <a href="{{ post.url }}"><btn style="float: right;" class="btn btn-sm btn-info"><strong>Read More</strong></btn></a>
 
           </div>
