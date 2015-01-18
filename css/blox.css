@@ -51,7 +51,7 @@ img.drod { padding:4px; background:#f2f6f8; border-radius: 7px;}
 .blox.section-bg1, .blox.section-bg4, .blox.section-bg5, .blox.section-bg6  { height:380px; margin-top:0; padding:0; border-top: 1px solid #d9d9d9; }
 .blox.section-bg5 { background:#384852 url(../images/pricing-tpbg1.jpg) no-repeat center; height:260px;  }
 .blox.section-bg6 { background:#384852 url(../images/pages-tpbg1.jpg) no-repeat center; height:260px; border-bottom:4px solid #e8e8e8;  }
-.blox.dark .mex-title { border-bottom: 4px solid rgba(255, 255, 255, 0.27);} 
+.blox.dark .mex-title { border-bottom: 4px solid rgba(255, 255, 255, 0.27);}
 
 .parallax-sec, .parallax-sec2 { background:#eee url(../images/parallax-bg1.jpg) center bottom; background-repeat:no-repeat; background-size:cover;  min-height: 400px;  height: 490px;  margin: 0 auto;  width: 100%;  max-width: 1920px;  position: relative; }
 
@@ -70,11 +70,11 @@ img.drod { padding:4px; background:#f2f6f8; border-radius: 7px;}
 .slogan h1 { font-size:67px; line-height:80px; }
 .homedark h1, .homedark h2, .homedark h3, .homedark h4, .homedark h5, .homedark h6, .homedark p { color:#fff; text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6); }
 .slogan  span, .blox.dark .slogan  span { color:#fc4f4f;}
-@media only screen and (max-width: 767px) { 
+@media only screen and (max-width: 767px) {
 .blox.dark, .blox.gray { height:auto;}
 .homedark #nav a { color:#595959;}
 }
-@media only screen and (max-width: 959px) { 
+@media only screen and (max-width: 959px) {
 .parallax-sec { background-repeat:repeat; background-size:960px auto;   height:400px;}
 .homedark { height:auto; background-size:cover; }
 .slogan h1 { font-size:41px; line-height:53px;}
