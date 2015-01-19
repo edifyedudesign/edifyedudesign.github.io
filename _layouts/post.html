@@ -1,11 +1,12 @@
 ---
-layout: default-blog
+layout: blog-layout
 ---
+
 <section class="eleven columns">
   <article class="blog-single-post"> <img src="{{ page.image-main }}" alt=""><br>
     <div class="post">
       <div class="postmetadata">
-        <h6 class="blog-author">{{ page.date | date: '%B %d %Y' }} / <strong>by</strong>  {{ page.author }} / <strong>in</strong> <a href="{{ page.category_url }}.html">{{ page.category }}</a></h6>
+        <h6 class="blog-author">{{ page.date | date: '%B %d %Y' }} / <strong>by</strong>  {{ page.author }} / <strong>in</strong> {{ page.category }}</h6>
       </div>
       <h1>{{ page.title }}</h1>
       <p> {{ page.content }}</p>
@@ -16,4 +17,3 @@ layout: default-blog
 
 </section>
 <!-- end-main-content -->
-
