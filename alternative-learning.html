@@ -1,0 +1,40 @@
+---
+layout: default-blog
+---
+
+
+
+      <section class="eleven columns">
+      <hr class="vertical-space2">
+
+        {% for post in site.categories.alternative-learning | limit:20 %}
+        <article class="blog-post">
+          <div class="one columns alpha frame">
+            <div class="blog-date-sec"> <span>{{ post.date | date: '%B' }}</span>
+              <h3>{{ post.date | date: '%d' }}</h3>
+              <span>{{ post.date | date: '%Y' }}</span> </div>
+          </div>
+          <div class="ten columns omega">
+            <div class="img-container">
+              <img class="frame" src="{{ post.image-thumb }}" alt="">
+              <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              <div class="postmetadata">
+                <span>by </span><h6 class="blog-author"> {{ post.author }}</h6>
+                <span>in </span><h6 class="blog-author"> <a href="{{ post.category_url }}.html">{{ post.category }}</a></h6>
+              </div>
+            </div>
+
+            <p style="margin-left: 60px;">{{ post.content | strip_html | truncate: 200}}</p>
+            <a href="{{ post.url }}"><btn style="float: right;" class="btn btn-sm btn-info"><strong>Read More</strong></btn></a>
+
+          </div>
+
+          <br class="clear">
+
+        </article>
+        {% endfor %}
+
+        <!-- {{ content }} -->
+
+      </section>
+      <!-- end-main-content -->
