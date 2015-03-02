@@ -819,8 +819,8 @@ img.alignleft { float:left; }
 .moonicons-box1 {font-size: 16px;	display: inline-block;	width: 15em; padding: .25em .5em; background: #fff;	margin: .5em 1em .5em 0; border:1px solid #e8e8e8;}
 
 /* Scroll to top */
-#scroll-top a { width:16px; height:16px; padding:6px 8px 9px; border-radius:4px; background:#818c90; position:fixed; bottom:48px; right:32px; display:none; opacity: 0.89; filter: alpha(opacity=89); z-index:499841;   }
-#scroll-top a i { font-size:16px; color:#fff;}
+#scroll-top a { width:28px; height:24px; padding:4px 6px; border-radius:4px; position:fixed; bottom:48px; right:32px; display:none; opacity: 0.89; filter: alpha(opacity=89); z-index:499841;   }
+#scroll-top a i { font-size:20px; color:#191919;}
 #scroll-top a:hover { background-color:#ffcc00; cursor:pointer;}
 
 h1.pnf404 { font-size: 176px; line-height: 1.1; font-weight:900;}

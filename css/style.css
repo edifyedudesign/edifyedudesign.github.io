@@ -164,7 +164,7 @@ p {
 }
 
 #home.pattern {
-  background-image: url("../images/pattern.png");
+  background-image: url("../images/bg/blue-background.PGJ");
 }
 
 .hero {
@@ -188,6 +188,7 @@ p {
   margin: 0;
   vertical-align: middle;
   padding: 20px 0;
+  height: 125px;
 }
 
 /* =Header
