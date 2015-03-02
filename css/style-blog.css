@@ -224,7 +224,15 @@ h4.subtitle { border-bottom: 1px solid #e5e5e5; letter-spacing:0em; font-weight:
 h4.subtitle.boldbrdr { border-bottom-width:4px;}
 h4.subtitle img { float:left; margin-right:5px; vertical-align:baseline }
 h4.subtitle.r1dd { margin-top:20px;}
-.title { background:#fff url(../images/title-left1.png) repeat-x 0 6px; overflow:hidden; margin-bottom:21px; clear:both; }
+
+.title {
+	background:#fff
+	url(../images/title-left1.png) repeat-x 0 6px;
+	overflow:hidden;
+	margin-bottom:21px;
+	clear:both;
+}
+
 .title h4, .title h3 { background:#fff; display:inline; margin-left:18px; padding:0 3px; font-weight:500; text-transform:capitalize; font-size:18px; }
 
 ul.our-clients { display:block; margin-bottom:20px;  box-shadow: 0px 2px 4px -3px rgba(0,0,0,0.1);  -webkit-box-shadow: 0px 2px 4px -2px rgba(0,0,0,0.1);}
@@ -270,7 +278,7 @@ ul.our-clients img { max-width:100%;}
 .footer-sbc input[type="text"], .footer-sbc input[type="submit"] { float:left; margin:4px 7px;}
 
 /* Social Icons */
-.social-icons a  { border:0; float:left; margin:1px 7px 0 12px; opacity: 0.5; text-decoration:none; -webkit-transition: opacity 0.5s ease; -moz-transition: opacity 0.5s ease; -ms-transition: opacity 0.5s ease; -o-transition: opacity 0.5s ease; transition: opacity 0.5s ease;   }
+.social-icons a  { border:0; float:left; margin:1px 7px 0 12px; opacity: 1; text-decoration:none; }
 .social-icons a:hover  { opacity: 1; }
 .social-icons.members { clear:both; text-align:center; margin-bottom:10px;}
 .social-icons.members a { text-align:center; float:none;}

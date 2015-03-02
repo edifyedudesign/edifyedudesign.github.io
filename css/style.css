@@ -1,3 +1,12 @@
+/* =Added Styles
+-------------------------------------------------------------- */
+.hr-clear {
+  width: 90px;
+  border-top: 2px solid transparent;
+  color: #f8f8f8;
+}
+
+
 /* =Common Styles
 -------------------------------------------------------------- */
 
@@ -81,8 +90,11 @@ p {
 .title p {
   font-weight: 300;
   text-align: center;
-  color: #888;
-  font-size: 16px;
+  /*color: #888;*/
+  /*font-size: 16px;*/
+  margin: 0;
+  font-size: 24px;
+  color: #666;
 }
 
 .btn-empty {
@@ -350,9 +362,12 @@ p {
 
 .team-inner p {
   text-align: center;
-  color: #999;
-  font-size: 14px;
+  /*  color: #999;*/
+  /*font-size: 14px;*/
   margin: 0;
+  font-size: 24px;
+  font-weight: 300;
+  color: #666;
 }
 
 .social-list {
