@@ -1,3 +1,12 @@
+/* =Added Styles
+-------------------------------------------------------------- */
+.hr-clear {
+  width: 90px;
+  border-top: 2px solid transparent;
+  color: #f8f8f8;
+}
+
+
 /* =Common Styles
 -------------------------------------------------------------- */
 
@@ -10,8 +19,10 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 *, *:focus {
-  outline: none !important;
+  /*outline: none !important;*/
 }
+
+
 
 img {
   max-width: 100%;
@@ -81,8 +92,11 @@ p {
 .title p {
   font-weight: 300;
   text-align: center;
-  color: #888;
-  font-size: 16px;
+  /*color: #888;*/
+  /*font-size: 16px;*/
+  margin: 0;
+  font-size: 24px;
+  color: #666;
 }
 
 .btn-empty {
@@ -208,9 +222,6 @@ p {
   color: #999;
 }
 
-.topnav .navbar-nav > .active > a, .topnav .navbar-nav > .active > a:hover, .topnav .navbar-nav > .active > a:focus {
-  background-color: #fff;
-}
 
 #logo {
   text-transform: uppercase;
@@ -350,9 +361,12 @@ p {
 
 .team-inner p {
   text-align: center;
-  color: #999;
-  font-size: 14px;
+  /*  color: #999;*/
+  /*font-size: 14px;*/
   margin: 0;
+  font-size: 24px;
+  font-weight: 300;
+  color: #666;
 }
 
 .social-list {
