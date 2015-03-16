@@ -23,9 +23,7 @@
 		border: 0;
 		font-size: 100%;
 		font: inherit;
-		vertical-align: baseline;
-		position: relative;
-	}
+		vertical-align: baseline; }
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
 	body {
@@ -719,7 +717,7 @@
 	}
 
 	.nav {
-	  margin-bottom: 0px;
+	  margin-bottom: 18px;
 	  margin-left: 0;
 	  list-style: none;
 	}
@@ -728,26 +726,9 @@
 	  display: block;
 	}
 
-	.nav .nav-tall > li {
-		height: 85px;
-	  /*padding-bottom: 35px;*/
-	  margin-bottom: 10px;
-	}
-
-	.nav .nav-tall .navbar-default .navbar-nav > li :hover, .nav .nav-tall .navbar-default .navbar-nav > li :focus{
+	.nav > li > a:hover {
 	  text-decoration: none;
-	  background-color: #0093d0;
-	  border: 3px;
-	  border-bottom: solid;
-	  border-color: #0093d0;
-	}
-
-	.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus{
-    color:#333;
-  }
-
-	.navbar-default .navbar-text{
-	  color:#777
+	  background-color: #e1e7ec;
 	}
 
 	.nav > .pull-right {
@@ -973,9 +954,9 @@
 	.nav-tabs .open .dropdown-toggle,
 	.nav-pills .open .dropdown-toggle,
 	.nav > li.dropdown.open.active > a:hover {
-	  /*color: #ffffff;
+	  color: #ffffff;
 	  background-color: #999999;
-	  border-color: #999999;*/
+	  border-color: #999999;
 	}
 
 	.nav li.dropdown.open .caret,
