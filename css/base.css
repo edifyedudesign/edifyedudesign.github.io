@@ -256,7 +256,7 @@
 		font-size: 12px;
 		 }
 
-	 .button.blue,
+.button.blue,
 	button.blue,
 	input[type="submit"].blue,
 	input[type="reset"].blue,
@@ -426,7 +426,7 @@
 
 	a.button, .button.blue, .button.red, .button.cherry, .button.orchid, .button.pink, .button.orange, .button.teal {
 		 color: #fff;
-		 }
+		 }*/
 
 	  .button:active,
 	button:active, a.price-send:active,

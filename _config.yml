@@ -16,3 +16,5 @@ authors:
 
 # Build settings
 markdown: kramdown
+
+exclude: ['vendor']
