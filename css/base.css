@@ -48,11 +48,12 @@
 ================================================== */
 
 	body {
-		background: #f4f7f8 url(../images/bg/blue-background.JPG);
+		background: #f4f7f8 url(../images/bg/great-learning-grows1.jpg);
 		font: 14px/22px Helvetica, Arial, sans-serif;
 		color: #65707b;
+		background-repeat: repeat-y;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
-		-webkit-text-size-adjust: 100%;
+		/*-webkit-text-size-adjust: 100%;*/
  }
 
  	.blog {
