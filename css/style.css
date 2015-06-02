@@ -178,7 +178,7 @@ p {
 }
 
 #home.pattern {
-  background-image: url("../images/bg/blue-background.PGJ");
+  background-image: url("/images/bg/large-succulent.JPG");
 }
 
 .hero {
@@ -382,7 +382,7 @@ p {
 
 .social-list li a {
   font-size: 21px;
-  color: #fff;
+  background-color: transparent;
 }
 
 .social-list li a:hover {
@@ -417,7 +417,7 @@ p {
 -------------------------------------------------------------- */
 
 #numbers {
-  background-image: url("../images/bg/4.jpg");
+  /*background-image: url("../images/bg/4.jpg");*/
   color: #fff;
   overflow: hidden;
 }
@@ -782,7 +782,7 @@ p {
 -------------------------------------------------------------- */
 
 #testimonials {
-  background-image: url("../images/bg/5.jpg");
+  /*background-image: url("../images/bg/5.jpg");*/
   color: #fff;
 }
 

@@ -75,7 +75,7 @@ $(document).ready(function(){
       if (element.hasClass('counter')) {
         element.children('.value').countTo();
       }
-    }    
+    }
   },{accY: -150});
 
   //Portfolio filters
@@ -95,19 +95,19 @@ $(document).ready(function(){
   };
 
   //Portfolio Project Loading
-  $('.open-project').click(function(){    
-    var projectUrl = $(this).attr("href");      
-    
+  $('.open-project').click(function(){
+    var projectUrl = $(this).attr("href");
+
     $('#project-content').animate({opacity:0}, 400,function(){
       $("#project-content").load(projectUrl);
       $('#project-content').delay(400).animate({opacity:1}, 400);
-    });  
-    
+    });
+
     //Project Page Open
     $('#project-extended').slideUp(600, function(){
       $('#project-extended').addClass('open');
       $('html, body').animate({ scrollTop: $(".portfolio-bottom").offset().top }, 900);
-    }).delay(500).slideDown(600,function(){          
+    }).delay(500).slideDown(600,function(){
         $('#project-content').fadeIn('slow',function(){
           if ($('.project-slider').length > 0) {
             initProjectSlider();
@@ -115,8 +115,8 @@ $(document).ready(function(){
         });
     });
 
-    return false;       
-  
+    return false;
+
   });
 
   //Project Page Close
@@ -230,7 +230,7 @@ $(document).ready(function(){
         ]
       }
      ]
-    
+
     var mapOptions = {
       zoom: 16,
       center: myLatlng,
@@ -249,12 +249,12 @@ $(document).ready(function(){
     });
   }
 
-  google.maps.event.addDomListener(window, 'load', initMap);
+  // google.maps.event.addDomListener(window, 'load', initMap);
 
   //Contact form validation and submit with ajax
   $('#contact-us').validate({
     errorPlacement: function(error, element) {},
-    highlight: function(element, errorClass) {        
+    highlight: function(element, errorClass) {
         $(element).parent().removeClass('success').addClass('error');
     },
     unhighlight: function(element, errorClass) {

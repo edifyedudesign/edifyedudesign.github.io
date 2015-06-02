@@ -48,10 +48,11 @@
 ================================================== */
 
 	body {
-		background: #f4f7f8 url(../images/bg/great-learning-grows1.jpg);
+		background: #f4f7f8 url(../images/bg/large-succulent.JPG);
 		font: 14px/22px Helvetica, Arial, sans-serif;
 		color: #65707b;
 		background-repeat: repeat-y;
+		background-size: 100%;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 		/*-webkit-text-size-adjust: 100%;*/
  }
@@ -124,7 +125,7 @@
 	.container hr { margin-right: 10px; margin-left: 10px;}
 	.container .columns hr, .container .column hr  { margin-right: 0px; margin-left: 0px;}
 
-	::selection { background: #e4744f; color: #fff; }
+	::selection { background: transparent; color: #fff; }
 	::-moz-selection { background: #e4744f; color: #fff; }
 
 
