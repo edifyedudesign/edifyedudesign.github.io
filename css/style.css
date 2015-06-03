@@ -184,12 +184,12 @@ p {
 .hero {
   padding: 120px 0;
   text-align: center;
-  color: #fff;
+  color: transparent;
 }
 
 .hero hr {
   width: 200px;
-  border-top: 3px solid #fff;
+  border-top: 3px solid transparent;
 }
 
 .home-slider .slides {
@@ -234,7 +234,7 @@ p {
   font-size: 24px;
   font-weight: 300;
   text-align: center;
-  color: #666;
+  color: #0E2B4C;
 }
 
 .promo-line:before, .promo-line:after {
@@ -272,14 +272,14 @@ p {
 }
 
 .promo p {
-  color: #666;
+  color: #0E2B4C;
 }
 
 .promo-icon {
   display: block;
   margin: 0 auto;
-  background-color: #333;
-  color: #fff;
+  background-color: #fff;
+  color: #CADC56;
   text-align: center;
   width: 65px;
   height: 65px;
@@ -297,13 +297,13 @@ p {
 -------------------------------------------------------------- */
 
 #team {
-  background-color: #f6f6f6;
+  background-color: #CADC56;
 }
 
 .team {
-  background-color: #fff;
+  background-color: #CADC56;
   border-radius: 4px;
-  border: 1px solid #ececec;
+  border: 1px solid #CADC56;
   overflow: hidden;
   margin-bottom: 15px;
 }
@@ -335,7 +335,7 @@ p {
   right: 0;
   bottom: 0;
   padding: 20px;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid #CADC56;
   margin-top: -260px;
   transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -345,7 +345,7 @@ p {
 
 .team-overlay p {
   text-align: center;
-  color: #fff;
+  color: transparent;
   font-size: 14px;
 }
 
@@ -400,7 +400,7 @@ p {
   height: 40px;
   line-height: 40px;
   vertical-align: middle;
-  border: 2px solid #fff;
+  border: 2px solid transparent;
   border-radius: 50%;
   text-align: center;
 }
@@ -680,7 +680,7 @@ p {
 #project-controls li a {
   display: block;
   color: #ccc;
-  border: 2px solid #ccc;
+  border: 2px solid transparent;
   padding: 4px 0;
   border-radius: 50%;
   height: 40px;
@@ -795,11 +795,11 @@ p {
 
 #testimonials hr {
   width: 200px;
-  border-top: 2px solid #fff;
+  border-top: 2px solid transparent;
 }
 
 .testimonials-slider {
-  margin-top: 30px;
+  margin-top: 10px;
   position: relative;
   text-align: center;
 }
@@ -826,7 +826,7 @@ p {
 
 #clients {
   padding: 0;
-  background-color: transparent;
+  background-color: #CADC56;
 }
 
 #clients-carousel .item {
@@ -845,7 +845,7 @@ p {
 
 #contact {
   position: relative;
-  background-color: #f6f6f6;
+  background-color: #fff;
 }
 
 #map {
@@ -860,13 +860,13 @@ p {
 
 #contact-form .form-control {
   background-color: #fff;
-  border-color: #ececec;
+  border-color: #fff;
   box-shadow: none;
   -webkit-box-shadow: none;
 }
 
 #contact-form .form-control:hover {
-  border-color: #dbdbdb;
+  border-color: #CADC56;
 }
 
 #contact-form .form-control:focus {
@@ -913,7 +913,7 @@ p {
 }
 
 .detail {
-  padding: 15px 0;
+  padding: 10px 0;
   text-align: center;
   font-size: 22px;
   white-space: nowrap;
@@ -925,8 +925,8 @@ p {
 }
 
 .form-sent {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   display: none;
   font-size: 16px;
   text-align: center;
@@ -936,9 +936,9 @@ p {
 -------------------------------------------------------------- */
 
 footer {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #35ACE0;
 }
 
 footer .social-list a {
