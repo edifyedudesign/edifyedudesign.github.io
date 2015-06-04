@@ -49,7 +49,7 @@
 
 	body {
 		background: #fff url(../images/bg/deskspace.jpg);
-		font: 14px/22px Helvetica, Arial, sans-serif;
+		font: 14px/22px Raleway, Arial, sans-serif;
 		color: #65707b;
 		background-repeat: repeat-y;
 		background-size: 100%;
@@ -73,12 +73,12 @@
 		font-family: "Raleway", Helvetica, Arial, sans-serif;
 		font-weight: 300; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-	h1 { font-size: 49px; line-height: 51px; margin-bottom: 20px; letter-spacing: -0.06em; color: #fff;}
-	h2 { font-size: 35px; line-height: 40px; margin-bottom: 20px; letter-spacing: -0.04em; color: #0E2B4C;}
-	h3 { font-size: 28px; line-height: 34px; margin-bottom: 14px; color: #0E2B4C; }
-	h4 { font-size: 21px; line-height: 30px; margin-bottom: 12px; color: #0E2B4C; }
-	h5 { font-size: 17px; line-height: 24px; margin-bottom: 10px; color: #0E2B4C; }
-	h6 { font-size: 14px; line-height: 21px; color: #0E2B4C; }
+	h1 { font-size: 49px; line-height: 55px; margin-bottom: 20px; letter-spacing: -0.06em; color: #fff;}
+	h2 { font-size: 35px; line-height: 55px; margin-bottom: 20px; letter-spacing: -0.04em; color: #0E2B4C;}
+	h3 { font-size: 28px; line-height: 40px; margin-bottom: 14px; color: #0E2B4C; }
+	h4 { font-size: 21px; line-height: 40px; margin-bottom: 12px; color: #0E2B4C; }
+	h5 { font-size: 17px; line-height: 30px; margin-bottom: 10px; color: #0E2B4C; }
+	h6 { font-size: 14px; line-height: 30px; color: #0E2B4C; }
 	.subheader { color: #0E2B4C; }
 	h3.magic, h4.magic,
 	h5.magic, h6.magic, p.magic { color: #0E2B4C; font-weight: 500; }

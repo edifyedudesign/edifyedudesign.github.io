@@ -123,7 +123,7 @@ p {
 .parallax-overlay {
   padding-top: 70px;
   padding-bottom: 70px;
-  background-color: rgba(0, 0, 0, 0.58);
+  background-color: transparent;
 }
 
 /* =Preloader
@@ -826,7 +826,7 @@ p {
 
 #clients {
   padding: 0;
-  background-color: #CADC56;
+  background-color: #fff;
 }
 
 #clients-carousel .item {
@@ -938,7 +938,7 @@ p {
 footer {
   padding-top: 80px;
   padding-bottom: 80px;
-  background-color: #35ACE0;
+  background-color: #fff;
 }
 
 footer .social-list a {
