@@ -467,6 +467,7 @@ p {
   text-align: center;
   transition: .3s;
   position: relative;
+  color: #fff;
 }
 
 .service:hover {
@@ -501,7 +502,7 @@ p {
 }
 
 .service > .fa-stack > .fa-circle {
-  color: #f6f6f6;
+  color: #CADC56;
   transition: .3s;
 }
 
