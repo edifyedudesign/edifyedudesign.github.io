@@ -50,11 +50,15 @@
   width: 100%;
 }
 
-  .team-overlay .social-list li a{
-    font-size: 16px;
-  }
-  .team-overlay .social-icon{
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-  }
+.team-overlay .social-list li a{
+  font-size: 16px;
+}
+.team-overlay .social-icon{
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.client-comment {
+  line-height: 1em;
+}
