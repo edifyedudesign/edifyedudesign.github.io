@@ -215,95 +215,139 @@ layout: default-home
 
 <!-- Work Section -->
 <section id="work" class="section">
-  <hr style="border-color: transparent;">
   <div class="container">
-    <div class="title col-md-12 col-sm-12 col-xs-12">
-      <h1><strong>Work</strong></h1>
-      <hr style="width:20%;text-align:center;margin-left:40%">
-      <p>We've been fortunate to work with some great organizations on some amazing projects.
-      </p>
+    <div class="title col-md-8 col-sm-10 col-xs-12">
+      <h1>Our <strong>Portfolio</strong></h1>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
-    <!-- Work Filters -->
+    <!-- Portfolio Filters -->
     <ul id="filters">
-        <li class="filter" data-filter="all">All</li>
-        <li class="filter" data-filter="employees">Employees</li>
-        <li class="filter" data-filter="customers">Customers</li>
-        <li class="filter" data-filter="knowledge-managment">Knowledge Management</li>
-        <li class="filter" data-filter="other-learning">Other Learning</li>
+      <li class="filter active" data-filter="all">All</li>
+      <li class="filter" data-filter="graphic">Graphic</li>
+      <li class="filter" data-filter="photography">Photography</li>
+      <li class="filter" data-filter="branding">Branding</li>
+      <li class="filter" data-filter="video">Video</li>
     </ul>
-    <!-- End Work Filters -->
+    <!-- End Portfolio Filters -->
   </div>
   <div class="portfolio-top"></div>
   <!-- Portfolio Grid -->
-  <ul id="portfolio-grid">
-    <li class="customers">
-      <img src="images/portfolio/wf/IMG_0187.JPG" alt="">
-      <img src="images/portfolio/wf/IMG_0303.JPG" alt="">
-      <img src="images/portfolio/wf/IMG_0329.JPG" alt="">
-      <a href="project-1.html" class="open-project">
-        <div class="project-overlay">
-          <i class="fa fa-plus-circle fa-3x"></i>
-          <span class="project-name">Wax Foundations</span>
-          <span>customers</span>
-        </div>
+  <ul id="portfolio-grid" class="relative">
+    <li class="mix photography branding mix_all" style="display: block; opacity: 1;">
+      <a href="project-1.html" class="open-project"><img src="images/portfolio/test/lol-cat.jpg" alt="">
+      <div class="project-overlay">
+        <i class="fa fa-plus-circle fa-3x"></i>
+        <span class="project-name">Silk Light</span>
+        <span>Photography / Branding</span>
+      </div>
       </a>
     </li>
-    <li class="employees">
-      <img src="images/portfolio/tedx/TED-x003.JPG" alt="">
-      <img src="images/portfolio/tedx/TED-x025.JPG" alt="">
-      <img src="images/portfolio/tedx/TED-x029.JPG" alt="">
-      <a href="project-2.html" class="open-project">
-        <div class="project-overlay">
-          <i class="fa fa-plus-circle fa-3x"></i>
-          <span class="project-name">TEDxMeredithCollege</span>
-          <span>Other Learning</span>
-        </div>
+    <li class="mix photography video mix_all" style="display: inline-block; opacity: 1;">
+      <a href="project-2.html" class="open-project"><img src="images/portfolio/test/lol-cat.jpg" alt="">
+      <div class="project-overlay">
+        <i class="fa fa-plus-circle fa-3x"></i>
+        <span class="project-name">Emma</span>
+        <span>Photography / Video</span>
+      </div>
       </a>
     </li>
-    <!-- <li class="customers">
-      <img src="images/portfolio/3.jpg" alt="">
-      <a href="project-1.html" class="open-project">
-        <div class="project-overlay">
-          <i class="fa fa-plus-circle fa-3x"></i>
-          <span class="project-name">Member's Media</span>
-          <span>customers</span>
-        </div>
+    <li class="mix graphic mix_all" style="display: inline-block; opacity: 1;">
+      <a href="project-1.html" class="open-project"><img src="images/portfolio/test/lol-cat.jpg" alt="">
+      <div class="project-overlay">
+        <i class="fa fa-plus-circle fa-3x"></i>
+        <span class="project-name">Potrait</span>
+        <span>Graphic</span>
+      </div>
       </a>
-    </li> -->
-    <!-- <li class="other-learning">
-      <img src="images/portfolio/4.jpg" alt="">
+    </li>
+    <li class="mix photography mix_all" style="display: inline-block; opacity: 1;">
       <a href="project-1.html" class="open-project">
+      <img src="images/portfolio/test/lol-cat.jpg" alt="">
         <div class="project-overlay">
           <i class="fa fa-plus-circle fa-3x"></i>
-          <span class="project-name">Forward Motion</span>
-          <span>other-learning</span>
-        </div>
-      </a>
-    </li> -->
-    <li class="knowledge-management">
-      <img src="images/portfolio/elemental/elemental_HR.png" alt="">
-      <a href="project-1.html" class="open-project">
-        <div class="project-overlay">
-          <i class="fa fa-plus-circle fa-3x"></i>
-          <span class="project-name">Elemental Technologies</span>
-          <span>knowledge-management</span>
+          <span class="project-name">Shana</span>
+          <span>Photography</span>
         </div>
       </a>
     </li>
   </ul>
   <!-- End Portfolio Grid -->
   <!-- Ajax Loaded Portfolio -->
-  <div id="project-extended">
-    <hr style="border-color: transparent;">
+  <div id="project-extended" style="display: none;">
     <div class="container">
       <ul id="project-controls">
         <li>
-          <a href="#" id="close-project">
+          <a href="#portfolio-grid" id="close-project">
             <i class="fa fa-times fa-2x"></i>
           </a>
         </li>
       </ul>
-      <div id="project-content"></div>
+      <div id="project-content" style="opacity: 1;">
+        <div id="project">
+          <div class="col-md-6">
+            <div class="project-media">
+              <div class="project-slider">
+                <div class="flex-viewport" style="overflow: hidden; position: relative;">
+                  <ul class="slides" style="width: 1000%; margin-left: -1620px;">
+                    <li class="clone" style="width: 540px; float: left; display: block;">
+                      <img src="images/portfolio/test/lol-cat.jpg" alt="">
+                    </li>
+                    <li class="clone" style="width: 540px; float: left; display: block;">
+                      <img src="images/portfolio/test/lol-cat.jpg" alt="">
+                    </li>
+                    <li class="clone" style="width: 540px; float: left; display: block;">
+                      <img src="images/portfolio/test/lol-cat.jpg" alt="">
+                    </li>
+                    <li class="flex-active-slide" style="width: 540px; float: left; display: block;">
+                      <img src="images/portfolio/test/lol-cat.jpg" alt="">
+                    </li>
+                    <li class="clone" style="width: 540px; float: left; display: block;">
+                      <img src="images/portfolio/test/lol-cat.jpg" alt="">
+                    </li>
+                  </ul>
+                </div>
+                <ol class="flex-control-nav flex-control-paging">
+                  <li>
+                    <a class="">1</a>
+                  </li>
+                  <li><a class="">2</a>
+                  </li>
+                  <li><a class="flex-active">3</a></li>
+                </ol>
+                <ul class="flex-direction-nav">
+                  <li>
+                    <a class="flex-prev" href="#"></a>
+                  </li>
+                  <li>
+                    <a class="flex-next" href="#"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-6">
+            <div class="project-info">
+              <h1>Silk Light</h1>
+              <div class="project-category">
+                <span class="border"></span>
+                <span>Branding / Photography</span>
+                <span class="border"></span>
+              </div>
+              <p class="center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <p class="center">
+                <a href="#" class="btn btn-danger">Visit website</a>
+              </p>
+            </div>
+          </div> -->
+        </div>
+      </div>
     </div>
   </div>
   <!-- End Ajax Loaded Portfolio -->
