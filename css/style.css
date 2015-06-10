@@ -121,9 +121,9 @@ p {
 }
 
 .parallax-overlay {
-  padding-top: 70px;
-  padding-bottom: 70px;
-  background-color: transparent;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #4B0839;
 }
 
 /* =Preloader
@@ -417,8 +417,7 @@ p {
 -------------------------------------------------------------- */
 
 #numbers {
-  /*background-image: url("../images/bg/4.jpg");*/
-  color: #fff;
+  color: #4B0839;
   overflow: hidden;
 }
 
@@ -817,7 +816,7 @@ p {
 }
 
 .testimonials-slider .client-comment {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 34px;
   font-style: italic;
   margin-bottom: 0;
@@ -825,7 +824,8 @@ p {
 }
 
 .testimonials-slider .client-name {
-  color: #ccc;
+  color: #0E2B4C;
+  font-size: 24px;
 }
 
 .testimonials-slider img {
@@ -838,7 +838,7 @@ p {
 
 #clients {
   padding: 0;
-  background-color: #fff;
+  background-color: #CADC56;
 }
 
 #clients-carousel .item {

@@ -11,7 +11,7 @@
 }
 
 .social-list2 a {
-  font-size: 3em;
+  font-size: 2em;
   color: #fff;
 }
 
@@ -42,4 +42,8 @@
 
 .client-comment {
   line-height: 1em;
+}
+
+.parallax-overlay1 {
+  background-color: #CADC56;
 }
