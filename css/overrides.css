@@ -110,10 +110,8 @@
 
 .social-icon-footer {
   display: inline-block;
-  /*line-height: 1.5em;*/
   vertical-align: middle;
   border: 10px solid transparent;
-  /*border-radius: 100%;*/
   background-color: #f9fbee;
   height: 1.5em;
   -moz-border-radius: 100%;
@@ -151,4 +149,32 @@
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
   width: 1.5em;
+}
+
+@media (max-width: 380px) {
+  .social-icon-footer {
+  display: inline-block;
+  vertical-align: middle;
+  border: 10px solid transparent;
+  background-color: #f9fbee;
+  height: 1.5em;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  width: 1.5em;
+  padding-right: .9em;
+  padding-bottom: .9em;
+  }
+  .social-list-footer a {
+  font-size: 2em;
+  color: #CADC56;
+  margin-left: .25em;
+  margin-right: .25em;
+  }
+  .social-list-footer {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  }
 }
