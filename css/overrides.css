@@ -1,9 +1,26 @@
 /*note: use this file to add changes*/
 /*if you want to change the background you have to change in the body css*/
 
+
+/* Misc Override Styles
+=========================================================== */
+
 .transparent {
   background-color: transparent;
 }
+
+.client-comment {
+  line-height: 1em;
+}
+
+.align-right {
+  text-align: right;
+  margin-right: 10px;
+  padding-right: 30px;
+}
+
+/* Social Icon Styles
+=========================================================== */
 
 .social-list2 {
   text-align: center;
@@ -43,19 +60,13 @@
   line-height: 30px;
 }
 
-.client-comment {
-  line-height: 1em;
-}
 
-.align-right {
-  text-align: right;
-  margin-right: 10px;
-  padding-right: 30px;
-}
+/* Navbar Styles
+=========================================================== */
 
-  .navbar-default .navbar-nav>li:hover, .navbar-default .navbar-nav>li:focus {
-    background-color: #CADC56;
-  }
+.navbar-default .navbar-nav>li:hover, .navbar-default .navbar-nav>li:focus {
+  background-color: #CADC56;
+}
 
 .nav-med {
     /*padding-bottom: 35px;*/
@@ -71,8 +82,8 @@
   border-color: #0093d0;
 }
 
-/*Footer Styles
-=============*/
+/* Footer Styles
+=========================================================== */
 
 .footer {
   background-color: #e7e7e7;
@@ -110,7 +121,7 @@
   width: 1.5em;
 }
 
-  .promo-icon {
+.promo-icon {
   display: block;
   margin: 0 auto;
   background-color: #eff4cc;
@@ -126,4 +137,18 @@
 
 .promo-icon .fa {
   line-height: inherit;
+}
+
+
+.about-icon {
+  /*display: inline-block;*/
+  /*line-height: 1.5em;*/
+  /*vertical-align: middle;*/
+  border: 10px solid transparent;
+  /*border-radius: 100%;*/
+  background-color: #f9fbee;
+  height: 1.5em;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  width: 1.5em;
 }
