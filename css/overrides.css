@@ -178,3 +178,25 @@
   margin-bottom: 2em;
   }
 }
+
+/* Newsletter
+=========================================================== */
+
+
+@media (min-width: 485px) {
+  .mailchimp {
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 30%;
+  }
+  #mc_embed_signup {
+    background:#fff;
+    /*clear:left; */
+    font:14px  Raleway,Arial,sans-serif;
+    /*width:100px;*/
+  }
+  .mail-form {
+    width: 100%
+  }
+}
