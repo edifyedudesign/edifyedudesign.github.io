@@ -578,17 +578,20 @@ p {
   position: absolute;
   min-height: 340px;
   width: 100%;
-  top: -325px;
-  /*min-height: inherit;*/
+  top: 0px;
   right: 100%;
   opacity: 0;
   transition: .3s ease;
-  padding: 40px 20px;
+  margin-top: -100%;
+  padding-top: 50%;
+  padding-bottom: 50%;
   color: #fff;
   text-align: center;
   z-index: 100;
   display: block;
 }
+
+
 
 .relative {
   position: relative;
