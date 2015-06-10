@@ -140,36 +140,15 @@
 }
 
 
-/* Portfolio Styles
-=========================================================== */
-
-/*.project-overlay2 {
-  position: absolute;
-  min-height: 340px;
-  width: 100%;
-  top: 0px;
-  right: 100%;
-  opacity: 0;
-  transition: .3s ease;
-  margin-top: -100%;
-  padding-top: 50%;
-  padding-bottom: 50%;
-  color: #fff;
-  text-align: center;
-  z-index: 100;
-  display: block;
+.about-icon {
+  /*display: inline-block;*/
+  /*line-height: 1.5em;*/
+  /*vertical-align: middle;*/
+  border: 10px solid transparent;
+  /*border-radius: 100%;*/
+  background-color: #f9fbee;
+  height: 1.5em;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  width: 1.5em;
 }
-
-#portfolio-grid li:hover .project-overlay2 {
-  opacity: 1;
-  right: 0;
-}
-
-.project-overlay2 .fa {
-  margin-bottom: 15px;
-}
-
-.project-overlay2 span {
-  display: block;
-  text-transform: uppercase;
-}*/
