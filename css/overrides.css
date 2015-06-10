@@ -1,9 +1,26 @@
 /*note: use this file to add changes*/
 /*if you want to change the background you have to change in the body css*/
 
+
+/* Misc Override Styles
+=========================================================== */
+
 .transparent {
   background-color: transparent;
 }
+
+.client-comment {
+  line-height: 1em;
+}
+
+.align-right {
+  text-align: right;
+  margin-right: 10px;
+  padding-right: 30px;
+}
+
+/* Social Icon Styles
+=========================================================== */
 
 .social-list2 {
   text-align: center;
@@ -43,19 +60,13 @@
   line-height: 30px;
 }
 
-.client-comment {
-  line-height: 1em;
-}
 
-.align-right {
-  text-align: right;
-  margin-right: 10px;
-  padding-right: 30px;
-}
+/* Navbar Styles
+=========================================================== */
 
-  .navbar-default .navbar-nav>li:hover, .navbar-default .navbar-nav>li:focus {
-    background-color: #CADC56;
-  }
+.navbar-default .navbar-nav>li:hover, .navbar-default .navbar-nav>li:focus {
+  background-color: #CADC56;
+}
 
 .nav-med {
     /*padding-bottom: 35px;*/
@@ -71,8 +82,8 @@
   border-color: #0093d0;
 }
 
-/*Footer Styles
-=============*/
+/* Footer Styles
+=========================================================== */
 
 .footer {
   background-color: #e7e7e7;
@@ -110,7 +121,7 @@
   width: 1.5em;
 }
 
-  .promo-icon {
+.promo-icon {
   display: block;
   margin: 0 auto;
   background-color: #eff4cc;
@@ -127,3 +138,38 @@
 .promo-icon .fa {
   line-height: inherit;
 }
+
+
+/* Portfolio Styles
+=========================================================== */
+
+/*.project-overlay2 {
+  position: absolute;
+  min-height: 340px;
+  width: 100%;
+  top: 0px;
+  right: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  margin-top: -100%;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  color: #fff;
+  text-align: center;
+  z-index: 100;
+  display: block;
+}
+
+#portfolio-grid li:hover .project-overlay2 {
+  opacity: 1;
+  right: 0;
+}
+
+.project-overlay2 .fa {
+  margin-bottom: 15px;
+}
+
+.project-overlay2 span {
+  display: block;
+  text-transform: uppercase;
+}*/
