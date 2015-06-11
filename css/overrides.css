@@ -33,6 +33,13 @@
 .vertical-space04 { height:4em; }
 .vertical-space05 { height:5em; }
 
+.button-blog  {
+  color: #65707b;
+  font-weight: normal;
+  text-decoration: none;
+  background-color: #CADC56;
+   }
+
 /* Blog Body Styles
 =========================================================== */
 @media (max-height: 30px) {
