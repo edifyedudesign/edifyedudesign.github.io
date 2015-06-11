@@ -7,11 +7,11 @@ layout: default-home
 
 <!-- About Section -->
 <section id="about" class="section">
-  <hr style="border-color: transparent;">
+<hr style="border-color: transparent;">
   <div class="container">
     <div class="title col-md-12 col-sm-12 col-xs-12">
-      <h1>About <strong> Us</strong></h1>
-      <hr style="width:20%;text-align:center;margin-left:40%">
+     <!--  <h1>About <strong> Us</strong></h1>
+      <hr style="width:20%;text-align:center;margin-left:40%"> -->
       <!-- About Text -->
       <p class="about-text">
         <br>
@@ -365,20 +365,25 @@ layout: default-home
       </p>
       <p>Sign up for our monthly newsletter here.
       </p>
-      <div>
+      <div style="width:280px; margin:0 auto;">
         <!-- Begin MailChimp Signup Form -->
         <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-        <div id="mc_embed_signup mailchimp">
+        <style type="text/css">
+          #mc_embed_signup{background:#fff; clear:left; font:14px  Raleway,Arial,sans-serif;  width:300px;}
+          /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+          We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+        </style>
+        <div id="mc_embed_signup">
           <form action="//edifyedu.us8.list-manage.com/subscribe/post?u=adcd41d2f3227baeb65cced0a&amp;id=9037589678" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
               <!-- <h2>Get the Edify Monthly</h2> -->
-              <div class="mc-field-group mailchimp">
+              <div class="mc-field-group">
                 <label for="mce-EMAIL">Email Address </label>
-                <input style="width: 100%;" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
               </div>
               <div class="mc-field-group">
                 <label for="mce-FNAME">First Name </label>
-                <input style="width: 100%;" type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
               </div>
               <div id="mce-responses" class="clear">
                 <div class="response" id="mce-error-response" style="display:none">
