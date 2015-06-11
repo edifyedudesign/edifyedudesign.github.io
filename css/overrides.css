@@ -237,12 +237,11 @@
   margin-bottom: 2em;
   }
 }
-<<<<<<< HEAD
 
 /* Newsletter
 =========================================================== */
 
-
+<<<<<<< HEAD
 .mailchimp {
   width: 50%;
   margin-left: 25%;
@@ -266,6 +265,8 @@
   /*clear:left;*/
   font:14px  Raleway,Arial,sans-serif;
 }
+=======
+>>>>>>> parent of 1b11476... update mailchimp responsiveness fix
 
 @media (min-width: 485px) {
   .mailchimp {
@@ -284,5 +285,3 @@
     width: 100%
   }
 }
-=======
->>>>>>> parent of 8c0e872... fix mailchimp newlsetter form responsiveness
