@@ -182,15 +182,27 @@
 /* Newsletter
 =========================================================== */
 
+.mailchimp {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
 
-@media (min-width: 485px) {
+.mc_embed_signup {
+  background:#fff;
+  /*clear:left;*/
+  font:14px  Raleway,Arial,sans-serif;
+}
+
+
+@media (max-width: 485px) {
   .mailchimp {
-    margin-left: 50px;
-    margin-right: 20px;
+    margin-left: 10%;
+    margin-right: 20%;
     margin-bottom: 10px;
-    width: 30%;
+    width: 80%;
   }
-  #mc_embed_signup {
+  .mc_embed_signup {
     background:#fff;
     /*clear:left; */
     font:14px  Raleway,Arial,sans-serif;
