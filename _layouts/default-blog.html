@@ -9,16 +9,16 @@
 
       {% include header.html %}
 
-      <section id="headline" class="col-md-12 col-sm-12 col-xs-12">
-        <div class="container">
+      <div  class="container">
+        <div id="headline" class="col-md-12 col-sm-12 col-xs-12 blog-header">
           <h3>Edify<small>Education Design</small></h3>
           <hr class="vertical-space2">
         </div>
         <hr class="vertical-space2">
-        <hr class="vertical-space2">
-      </section>
+      </div>
 
-      <section class="container page-content">
+      <div class="row">
+        <!-- <section class="container page-content"> -->
 
         {{ content }}
 
@@ -78,7 +78,7 @@
         <div class="vertical-space2"></div>
 
 
-      </section>
+      </div>
 
       {% include footer.html %}
 

@@ -23,7 +23,7 @@
 /* Blog Body Styles
 =========================================================== */
 
-@media (max-width: 1000px) {
+/*@media (max-width: 1000px) {
   .container .columns.hide-blog-sidebar {
     display: none;
   }
@@ -31,7 +31,7 @@
     width: 100%;
     font-size: 1.75em;
     /*margin-right: 10%;
-    margin-left: 10%;*/
+    margin-left: 10%;
   }
   #blog-body-width {
     width: 100%;
@@ -76,7 +76,7 @@
 .container .columns {
   float: left;
   display: inline;
-}
+}*/
 
 /* Social Icon Styles
 =========================================================== */

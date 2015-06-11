@@ -2,41 +2,56 @@
 layout: default-blog
 ---
 
+      <div class="container">
+        <div class="col-sm-8 blog-main">
+          <!-- <div class="col-md-9 col-sm-9 col-xs-9 mobile-blog-layout" id="blog-body-width"> -->
+          <hr class="vertical-space2">
 
 
-      <div class="col-md-9 col-sm-9 col-xs-9 mobile-blog-layout" id="blog-body-width">
-      <hr class="vertical-space2">
+            <div class="blog-post">
+              <h2 class="blog-post-title">Another blog post</h2>
+              <p class="blog-post-meta">
+                December 23, 2013 by <a href="./bootstrap-blog-template_files/bootstrap-blog-template.html">Jacob</a>
+              </p>
 
-        {% for post in site.posts | limit:20 %}
-        <article class="blog-post">
-          <div class="col-md-2 col-sm-2 col-xs-2 alpha frame">
-            <div class="blog-date-sec"> <span>{{ post.date | date: '%B' }}</span>
-              <h3>{{ post.date | date: '%d' }}</h3>
-              <span>{{ post.date | date: '%Y' }}</span> </div>
+              <p>
+                Cum sociis natoque penatibus et magnis <a href="./bootstrap-blog-template_files/bootstrap-blog-template.html">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+              </p>
+            </div><!-- /.blog-post -->
           </div>
-          <div class="col-md-10 col-sm-10 col-xs-10 omega">
-            <div class="img-container">
-              <img class="frame" src="{{ post.image-thumb }}" alt="">
-              <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-              <div class="postmetadata">
-                <span>by </span><h6 class="blog-author"> {{ post.author }}</h6>
-                <span>in </span><h6 class="blog-author"> <a href="{{ post.category_url }}.html">{{ post.category }}</a></h6>
+          {% for post in site.posts | limit:20 %}
+          <div class="blog-post">
+            <div class="col-md-2 col-sm-2 col-xs-2">
+              <div class="blog-date-sec"> <span>{{ post.date | date: '%B' }}</span>
+                <h3>{{ post.date | date: '%d' }}</h3>
+                <span>{{ post.date | date: '%Y' }}</span>
               </div>
             </div>
+            <div class="col-md-8 col-sm-8 col-xs-8 omega">
+              <div class="img-container">
+                <img class="frame" src="{{ post.image-thumb }}" alt="">
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <div class="postmetadata">
+                  <span>by </span><h6 class="blog-author"> {{ post.author }}</h6>
+                  <span>in </span><h6 class="blog-author"> <a href="{{ post.category_url }}.html">{{ post.category }}</a></h6>
+                </div>
+              </div>
 
-            <p>{{ post.content | strip_html | truncate: 200}}</p>
-            <a href="{{ post.url }}"><btn style="float: right;" class="btn btn-sm btn-info"><strong>Read More</strong></btn></a>
+              <p>{{ post.content | strip_html | truncate: 200}}</p>
+              <a href="{{ post.url }}"><btn style="float: right;" class="btn btn-sm btn-info"><strong>Read More</strong></btn></a>
 
+              <br class="clear">
+
+          </div>
+          {% endfor %}
+
+          <!-- {{ content }} -->
           </div>
             <span id="scroll-top">
               <a class="scrollup"><i class="fa fa-chevron-up"></i></a>
             </span>
           <br class="clear">
 
-        </article>
-        {% endfor %}
-
-        <!-- {{ content }} -->
-
+        </div>
       </div>
       <!-- end-main-content -->
