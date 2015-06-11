@@ -19,9 +19,27 @@
   padding-right: 30px;
 }
 
+.divider {
+  border-bottom: 1px;
+  border-color: transparent;
+  width: 100%;
+  clear: all;
+}
+
+.vertical-space0, .vertical-space01, .vertical-space02, .vertical-space03, .vertical-space04, .vertical-space05 { display:block; width:100%; margin:0; clear:both; border:0 none; height:20px; }
+.vertical-space01 { height:1em; }
+.vertical-space02 { height:2em; }
+.vertical-space03 { height:3em; }
+.vertical-space04 { height:4em; }
+.vertical-space05 { height:5em; }
 
 /* Blog Body Styles
 =========================================================== */
+@media (max-height: 30px) {
+  section article div .no-image-collapse {
+    width: 30px;
+  }
+}
 
 /*@media (max-width: 1000px) {
   .container .columns.hide-blog-sidebar {
@@ -30,7 +48,7 @@
   .mobile-blog-layout .blog-post h3 {
     width: 100%;
     font-size: 1.75em;
-    /*margin-right: 10%;
+    margin-right: 10%;
     margin-left: 10%;
   }
   #blog-body-width {
@@ -49,30 +67,18 @@
     margin: 0 auto;
     padding: 0;
   }
-}
+}*/
 
-.img-container {
-    width: 100%;
-}
-.img-container-text {
-    padding-left: 25px;
-}
-.img-container img.frame {
-   float: left;
-   margin-left: 30px;
-   margin-right: 30px;
-   margin-bottom: 50px;
-}
 
-.container {
+/*.container {
   position: relative;
   width: 70%;
   margin-left: 5%;
   padding-right: 5%;
   padding-left: 0;
   display: inline-block;
-}
-.container .column,
+}*/
+/*.container .column,
 .container .columns {
   float: left;
   display: inline;
@@ -237,6 +243,7 @@
   margin-bottom: 2em;
   }
 }
+<<<<<<< HEAD
 
 /* Newsletter
 =========================================================== */
@@ -285,3 +292,5 @@
     width: 100%
   }
 }
+=======
+>>>>>>> parent of 8c0e872... fix mailchimp newlsetter form responsiveness

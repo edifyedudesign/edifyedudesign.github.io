@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html>
 
-  <div id="wrap" class="colorskin-1">
+    {% include blog-head.html %}
 
-    {% include head.html %}
+  <body>
 
-    <body>
+    <div id="wrap">
 
       {% include header.html %}
 
-      <div  class="container">
-        <div id="headline" class="col-md-12 col-sm-12 col-xs-12 blog-header">
+      <section id="headline">
+        <div class="container">
           <h3>Edify<small>Education Design</small></h3>
-          <hr class="vertical-space2">
         </div>
-        <hr class="vertical-space2">
-      </div>
+      </section>
 
       <div class="row">
-        <!-- <section class="container page-content"> -->
+        <hr class="vertical-space02">
+      </div>
+
+      <section class="container page-content">
 
         {{ content }}
 
-        <aside class="col-md-3 col-sm-3 col-xs-3 sidebar hide-blog-sidebar">
+        <aside class="four columns offset-by-one sidebar">
           <h4 class="subtitle">Categories</h4>
           <div class="listbox1">
             <ul>
@@ -78,7 +79,7 @@
         <div class="vertical-space2"></div>
 
 
-      </div>
+      </section>
 
       {% include footer.html %}
 
@@ -107,9 +108,10 @@
       <!-- Main.js File -->
       <script type="text/javascript" src="/js/main.js"></script>
 
+    </div>
 
-    </body>
-  </div>
+  </body>
+
 
 </html>
 

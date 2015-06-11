@@ -2,56 +2,58 @@
 layout: default-blog
 ---
 
-      <div class="container">
-        <div class="col-sm-8 blog-main">
-          <!-- <div class="col-md-9 col-sm-9 col-xs-9 mobile-blog-layout" id="blog-body-width"> -->
-          <hr class="vertical-space2">
-
-
-            <div class="blog-post">
-              <h2 class="blog-post-title">Another blog post</h2>
-              <p class="blog-post-meta">
-                December 23, 2013 by <a href="./bootstrap-blog-template_files/bootstrap-blog-template.html">Jacob</a>
-              </p>
-
-              <p>
-                Cum sociis natoque penatibus et magnis <a href="./bootstrap-blog-template_files/bootstrap-blog-template.html">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
-              </p>
-            </div><!-- /.blog-post -->
-          </div>
-          {% for post in site.posts | limit:20 %}
-          <div class="blog-post">
-            <div class="col-md-2 col-sm-2 col-xs-2">
-              <div class="blog-date-sec"> <span>{{ post.date | date: '%B' }}</span>
-                <h3>{{ post.date | date: '%d' }}</h3>
-                <span>{{ post.date | date: '%Y' }}</span>
-              </div>
-            </div>
-            <div class="col-md-8 col-sm-8 col-xs-8 omega">
-              <div class="img-container">
-                <img class="frame" src="{{ post.image-thumb }}" alt="">
-                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                <div class="postmetadata">
-                  <span>by </span><h6 class="blog-author"> {{ post.author }}</h6>
-                  <span>in </span><h6 class="blog-author"> <a href="{{ post.category_url }}.html">{{ post.category }}</a></h6>
-                </div>
-              </div>
-
-              <p>{{ post.content | strip_html | truncate: 200}}</p>
-              <a href="{{ post.url }}"><btn style="float: right;" class="btn btn-sm btn-info"><strong>Read More</strong></btn></a>
-
-              <br class="clear">
-
-          </div>
-          {% endfor %}
-
-          <!-- {{ content }} -->
-          </div>
-            <span id="scroll-top">
-              <a class="scrollup"><i class="fa fa-chevron-up"></i></a>
-            </span>
-          <br class="clear">
-
-        </div>
+<section class="twelve columns">
+  {% for post in site.posts | limit:20 %}
+  <article class="blog-post">
+    <div class="one columns alpha">
+      <div class="blog-date-sec">
+        <span>{{ post.date | date: '%B' }}</span>
+        <h3>{{ post.date | date: '%d' }}</h3>
+        <span>{{ post.date | date: '%Y' }}</span>
       </div>
-      <!-- end-main-content -->
+    </div>
+
+<!--
+This is commented out due to layout issues when a post doesn't have an image
+=======================
+    <div class="four columns alpha">
+      <img class="frame" src="{{ post.image-thumb }}" alt="">
+      <img src="images/blog-post-pic2.jpg" alt="">
+      <br>
+    </div>
+
+Note:
+Make this: <div class="nine columns omega"> into <div class="six columns omega"> if you fix the images issue
+-->
+    <div class="one columns alpha">
+      <img src="" alt="">
+
+      <br>
+    </div>
+    <div class="ten columns omega">
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <div class="postmetadata">
+        <span>by </span><h6 class="blog-author"> {{ post.author }}</h6>
+        <span>in </span><h6 class="blog-author"> <a href="{{ post.category_url }}.html">{{ post.category }}</a></h6>
+      </div>
+      <p>
+        {{ post.content | strip_html | truncate: 200}}
+      </p>
+      <a href="{{ post.url }}"><button class="btn btn-xs"><strong>Read More</strong></button></a>
+    </div>
+    <br class="clear">
+  </article>
+  {% endfor %}
+  <br class="clear">
+<!--   <div class="pagination2 pagination2-centered">
+    <ul>
+      <li class="disabled"><a href="#">&laquo;</a></li>
+      <li class="active"><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">&raquo;</a></li>
+    </ul>
+  </div> -->
+</section>
+<!-- end-main-content -->
