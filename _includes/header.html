@@ -1,5 +1,16 @@
-<!-- Header -->
+<!-- Header
+
+<!--Fix with CSS scoping
+https://css-tricks.com/saving-the-day-with-scoped-css/ -->
+
+
 <nav class="navbar navbar-default">
+  <style scoped>
+    @import url('./css/bootstrap.css'); /* Import Bootstrap Stylesheet */
+    @import url('./css/base.css'); /* Import Base Stylesheet */
+    @import url('./css/overrides.css'); /* Import Overrides Stylesheet */
+    @import url('./css/style.css'); /* Import Style Stylesheet */
+  </style>
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">

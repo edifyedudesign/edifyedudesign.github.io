@@ -19,6 +19,71 @@
   padding-right: 30px;
 }
 
+.divider {
+  border-bottom: 1px;
+  border-color: transparent;
+  width: 100%;
+  clear: all;
+}
+
+.vertical-space0, .vertical-space01, .vertical-space02, .vertical-space03, .vertical-space04, .vertical-space05 { display:block; width:100%; margin:0; clear:both; border:0 none; height:20px; }
+.vertical-space01 { height:1em; }
+.vertical-space02 { height:2em; }
+.vertical-space03 { height:3em; }
+.vertical-space04 { height:4em; }
+.vertical-space05 { height:5em; }
+
+/* Blog Body Styles
+=========================================================== */
+@media (max-height: 30px) {
+  section article div .no-image-collapse {
+    width: 30px;
+  }
+}
+
+/*@media (max-width: 1000px) {
+  .container .columns.hide-blog-sidebar {
+    display: none;
+  }
+  .mobile-blog-layout .blog-post h3 {
+    width: 100%;
+    font-size: 1.75em;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  #blog-body-width {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  #headline {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .container {
+    position: relative;
+    width: inherit;
+    margin: 0 auto;
+    padding: 0;
+  }
+}*/
+
+
+/*.container {
+  position: relative;
+  width: 70%;
+  margin-left: 5%;
+  padding-right: 5%;
+  padding-left: 0;
+  display: inline-block;
+}*/
+/*.container .column,
+.container .columns {
+  float: left;
+  display: inline;
+}*/
+
 /* Social Icon Styles
 =========================================================== */
 
@@ -110,10 +175,8 @@
 
 .social-icon-footer {
   display: inline-block;
-  /*line-height: 1.5em;*/
   vertical-align: middle;
   border: 10px solid transparent;
-  /*border-radius: 100%;*/
   background-color: #f9fbee;
   height: 1.5em;
   -moz-border-radius: 100%;
@@ -152,3 +215,82 @@
   -webkit-border-radius: 100%;
   width: 1.5em;
 }
+
+@media (max-width: 380px) {
+  .social-icon-footer {
+  display: inline-block;
+  vertical-align: middle;
+  border: 10px solid transparent;
+  background-color: #f9fbee;
+  height: 1.5em;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  width: 1.5em;
+  padding-right: .9em;
+  padding-bottom: .9em;
+  }
+  .social-list-footer a {
+  font-size: 2em;
+  color: #CADC56;
+  margin-left: .25em;
+  margin-right: .25em;
+  }
+  .social-list-footer {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  }
+}
+<<<<<<< HEAD
+
+/* Newsletter
+=========================================================== */
+
+<<<<<<< HEAD
+.mailchimp {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.mailchimp2 {
+  width: 190px;
+  /*margin-left: 25%;
+  margin-right: 25%;*/
+}
+
+.mc_embed_signup {
+  background:#fff;
+  /*clear:left;*/
+  font:14px  Raleway,Arial,sans-serif;
+}
+
+.mc_embed_signup2 {
+  background:#fff;
+  /*clear:left;*/
+  font:14px  Raleway,Arial,sans-serif;
+}
+=======
+>>>>>>> parent of 1b11476... update mailchimp responsiveness fix
+
+@media (min-width: 485px) {
+  .mailchimp {
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 30%;
+  }
+  #mc_embed_signup {
+    background:#fff;
+    /*clear:left; */
+    font:14px  Raleway,Arial,sans-serif;
+    /*width:100px;*/
+  }
+  .mail-form {
+    width: 100%
+  }
+}
+=======
+>>>>>>> parent of 8c0e872... fix mailchimp newlsetter form responsiveness
