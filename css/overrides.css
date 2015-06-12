@@ -1,9 +1,26 @@
 /*note: use this file to add changes*/
 /*if you want to change the background you have to change in the body css*/
 
+
+/* Misc Override Styles
+=========================================================== */
+
 .transparent {
   background-color: transparent;
 }
+
+.client-comment {
+  line-height: 1em;
+}
+
+.align-right {
+  text-align: right;
+  margin-right: 10px;
+  padding-right: 30px;
+}
+
+/* Social Icon Styles
+=========================================================== */
 
 .social-list2 {
   text-align: center;
@@ -14,6 +31,8 @@
   font-size: 2em;
   color: #fff;
 }
+
+
 
 .social-list2 a:hover {
   color: #0093d0;
@@ -31,6 +50,7 @@
   border-radius: 50%;
 }
 
+
 .team-overlay .social-list li a{
   font-size: 16px;
 }
@@ -40,8 +60,97 @@
   line-height: 30px;
 }
 
-.client-comment {
-  line-height: 1em;
+
+/* Navbar Styles
+=========================================================== */
+
+.navbar-default .navbar-nav>li:hover, .navbar-default .navbar-nav>li:focus {
+  background-color: #CADC56;
+}
+
+.nav-med {
+    /*padding-bottom: 35px;*/
+    margin-bottom: 5px;
+    line-height: 1em;
+  }
+
+.nav .nav-med .navbar-default .navbar-nav > li :hover, .nav .nav-med .navbar-default .navbar-nav > li :focus{
+  text-decoration: none;
+  background-color: #0093d0;
+  border: 3px;
+  border-bottom: solid;
+  border-color: #0093d0;
+}
+
+/* Footer Styles
+=========================================================== */
+
+.footer {
+  background-color: #e7e7e7;
+  padding: 20px;
+}
+
+.social-list-footer a {
+  font-size: 3em;
+  color: #CADC56;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+.social-list-footer {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.social-list-footer a:hover .social-icon-footer {
+   background-color: #eff4cc;
+}
+
+.social-icon-footer {
+  display: inline-block;
+  /*line-height: 1.5em;*/
+  vertical-align: middle;
+  border: 10px solid transparent;
+  /*border-radius: 100%;*/
+  background-color: #f9fbee;
+  height: 1.5em;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  width: 1.5em;
+}
+
+.promo-icon {
+  display: block;
+  margin: 0 auto;
+  background-color: #eff4cc;
+  color: #CADC56;
+  text-align: center;
+  width: 65px;
+  height: 65px;
+  line-height: 65px;
+  border-radius: 50%;
+  margin-top: 10px;
+  transition: .3s;
+}
+
+.promo-icon .fa {
+  line-height: inherit;
+}
+
+
+.about-icon {
+  /*display: inline-block;*/
+  /*line-height: 1.5em;*/
+  /*vertical-align: middle;*/
+  border: 10px solid transparent;
+  /*border-radius: 100%;*/
+  background-color: #f9fbee;
+  height: 1.5em;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  width: 1.5em;
 }
 
 .parallax-overlay1 {
