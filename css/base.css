@@ -134,10 +134,9 @@
 ================================================== */
 
 	a, a:visited { color: #0093d0; text-decoration: none; outline: 0; }
-	a:hover, a:focus { color: #ff9900; }
+	a:hover, a:focus { color: #2BABE2; }
 	p a, p a:visited { line-height: inherit; }
 	a:active { outline:none; opacity: 0.75; }
-
 
 /* #Lists
 ================================================== */
@@ -198,7 +197,7 @@
 	  -webkit-border-radius: 3px;
 	  border-radius: 3px;
 	  border:0 none;
-	  color: #fff;
+	  /*color: #fff;*/
 	  display: inline-block;
 	  font-size: 14px;
 	  text-transform:capitalize;
@@ -210,7 +209,8 @@
 	  margin-bottom: 21px;
 	  line-height: 1;
 	  padding: 15px 40px;
-	  background: #8fbe32;
+	  /*background: #8fbe32;*/
+	  background-color: #CADC56;
 	   }
 
 	.button:hover,
@@ -1596,18 +1596,3 @@
 	  background-color: #f98805;
 	}
 
-	/* Styles Erica Added
-	================================================== */
-
-	.img-container {
-	    width: 680px;
-	}
-	  .img-container-text {
-	      padding-left: 25px;
-	  }
-	   .img-container img.frame {
-	       float: left;
-	       margin-left: 30px;
-	       margin-right: 30px;
-	       margin-bottom: 50px;
-	   }

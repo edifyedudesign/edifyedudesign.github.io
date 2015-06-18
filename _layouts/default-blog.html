@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html>
 
-  <div id="wrap" class="colorskin-1">
+    {% include blog-head.html %}
 
-    {% include head.html %}
+  <body>
 
-    <body>
+    <div id="wrap" class="colorskin-1">
 
       {% include header.html %}
 
       <section id="headline">
         <div class="container">
           <h3>Edify<small>Education Design</small></h3>
-          <hr class="vertical-space2">
         </div>
-        <hr class="vertical-space2">
-        <hr class="vertical-space2">
       </section>
+
+      <div class="container">
+        <div class="row">
+          <hr class="vertical-space02">
+        </div>
+      </div>
 
       <section class="container page-content">
 
@@ -38,7 +41,7 @@
           <br class="clear">
 
           <!-- Begin MailChimp Signup Form -->
-          <div id="mc_embed_signup">
+          <div class="mc_embed_signup2 mailchimp2">
           <form action="//edifyedu.us8.list-manage.com/subscribe/post?u=adcd41d2f3227baeb65cced0a&amp;id=9037589678" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
               <div id="mc_embed_signup_scroll">
             <h3>Get the Edify newsletter!</h3>
@@ -102,14 +105,15 @@
       <script src="/js/bootstrap-tooltip.js"></script>
 
       <!-- Google Maps JS File -->
-      // <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
 
       <!-- Main.js File -->
       <script type="text/javascript" src="/js/main.js"></script>
 
+    </div>
 
-    </body>
-  </div>
+  </body>
+
 
 </html>
 

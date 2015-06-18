@@ -841,6 +841,8 @@ p {
 #clients {
   padding: 0;
   background-color: #CADC56;
+  /*background-color: #2BABE2;*/ /*This is the original blue*/
+  /*background-color: #56cadc*/ /* << this one is the triadic color that was paired with your green*/
 }
 
 #clients-carousel .item {

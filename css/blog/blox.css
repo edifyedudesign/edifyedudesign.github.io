@@ -15,8 +15,8 @@
 .dark.yellowbox { background:#fdb012; text-shadow: 1px 1px 0 #837400;}
 .blox.dark * { color:#fff; }
 .blox.dark a { color:#07add4; }
-.blox.dark a.button { color:#fff; }
-.blox.dark a:lhover { color:#ff9900;}
+/*.blox.dark a.button { color:#fff; }*/
+.blox.dark a:hover { color:#2BABE2;}
 .blox.dark .magic-link a { color:#fff; }
 .blox.dark p { color:rgba(255, 255, 255, 0.9); }
 .blox.dark small { color:rgba(255, 255, 255, 0.8); }
