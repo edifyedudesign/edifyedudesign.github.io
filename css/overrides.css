@@ -40,6 +40,14 @@
   background-color: #CADC56;
    }
 
+.spacey-bottom {
+  margin-bottom: 2em;
+}
+/*this class refers to giving more space under a section*/
+.spacier-bottom {
+  margin-bottom:4em;
+}
+
 /* Blog Body Styles
 =========================================================== */
 @media (max-height: 30px) {
