@@ -357,7 +357,7 @@ jQuery(document).ready(function(){
  // jQuery.ajax({url:"twitter/twitter.php",success:function(result){
 
 	// jQuery("#twitter").html(tz_format_twitter(result));
-}});
+// }});
 });
 
 
