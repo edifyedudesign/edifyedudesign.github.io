@@ -18,3 +18,11 @@ authors:
 markdown: kramdown
 
 exclude: ['vendor']
+
+collections:
+  whitepapers:
+    output: true
+    permalink: /whitepapers/:path/
+  speaking:
+    output: true
+    permalink: /speaking/:path/
